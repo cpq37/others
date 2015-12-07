@@ -40,7 +40,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;D:\Projects\LocalLanguage\vld-1.9h\include&quot;"
+				AdditionalIncludeDirectories="&quot;..\..\..\..\vld-1.9h\include&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -61,9 +61,8 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="D:\Projects\LocalLanguage\vld-1.9h\lib\vld.lib"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="&quot;D:\Projects\LocalLanguage\vld-1.9h\lib&quot;"
+				AdditionalLibraryDirectories="&quot;..\..\..\..\vld-1.9h\lib&quot;"
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				TargetMachine="1"

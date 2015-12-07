@@ -15,8 +15,8 @@
 #include "vld.h" 
 #endif
 
-#define TEST_XML_PATH "D:\\Projects\\LocalLanguage\\language res\\MIBG__GP_2217_20151125\\Chinese_CN.xml"
-#define TEXT_OUT	  "D:\\Projects\\LocalLanguage\\language res\\test.txt"
+#define TEST_XML_PATH "D:\\Projects\\others\\LocalLanguage\\language res\\MIBG__GP_2217_20151125\\Chinese_CN.xml"
+#define TEXT_OUT	  "D:\\Projects\\others\\LocalLanguage\\language res\\test.txt"
 
 #else
 #define TEST_XML_PATH "./language res/MIBG__GP_2217_20151125/Russisch.xml"
@@ -68,6 +68,12 @@ int main(void)
 
 		fclose(fp);
 		fp = NULL;
+	}
+	else
+	{
+		printf("open file fail!\n");
+		getchar();
+		return -1;
 	}
     
 	getchar();
