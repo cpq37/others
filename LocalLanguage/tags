@@ -1,0 +1,978 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDRESSFORMAT	./vld-1.9h/src/utility.h	36;"	d
+ADDRESSFORMAT	./vld-1.9h/src/utility.h	38;"	d
+AR	./Makefile	/^export AR                       = ar$/;"	m
+ARFLAGS	./Makefile	/^export ARFLAGS                  =$/;"	m
+AXREG	./vld-1.9h/src/utility.h	47;"	d
+AXREG	./vld-1.9h/src/utility.h	54;"	d
+Accept	./src/xml/dom/tinyxml.cpp	/^bool TiXmlComment::Accept( TiXmlVisitor* visitor ) const$/;"	f	class:TiXmlComment
+Accept	./src/xml/dom/tinyxml.cpp	/^bool TiXmlDeclaration::Accept( TiXmlVisitor* visitor ) const$/;"	f	class:TiXmlDeclaration
+Accept	./src/xml/dom/tinyxml.cpp	/^bool TiXmlDocument::Accept( TiXmlVisitor* visitor ) const$/;"	f	class:TiXmlDocument
+Accept	./src/xml/dom/tinyxml.cpp	/^bool TiXmlElement::Accept( TiXmlVisitor* visitor ) const$/;"	f	class:TiXmlElement
+Accept	./src/xml/dom/tinyxml.cpp	/^bool TiXmlText::Accept( TiXmlVisitor* visitor ) const$/;"	f	class:TiXmlText
+Accept	./src/xml/dom/tinyxml.cpp	/^bool TiXmlUnknown::Accept( TiXmlVisitor* visitor ) const$/;"	f	class:TiXmlUnknown
+Add	./src/xml/dom/tinyxml.cpp	/^void TiXmlAttributeSet::Add( TiXmlAttribute* addMe )$/;"	f	class:TiXmlAttributeSet
+AddRef	./vld-1.9h/src/vld.cpp	/^ULONG VisualLeakDetector::AddRef ()$/;"	f	class:VisualLeakDetector
+Alloc	./vld-1.9h/src/vld.cpp	/^LPVOID VisualLeakDetector::Alloc (ULONG size)$/;"	f	class:VisualLeakDetector
+Attribute	./src/xml/dom/tinyxml.cpp	/^const char* TiXmlElement::Attribute( const char* name ) const$/;"	f	class:TiXmlElement
+Attribute	./src/xml/dom/tinyxml.cpp	/^const char* TiXmlElement::Attribute( const char* name, double* d ) const$/;"	f	class:TiXmlElement
+Attribute	./src/xml/dom/tinyxml.cpp	/^const char* TiXmlElement::Attribute( const char* name, int* i ) const$/;"	f	class:TiXmlElement
+Attribute	./src/xml/dom/tinyxml.cpp	/^const std::string* TiXmlElement::Attribute( const std::string& name ) const$/;"	f	class:TiXmlElement
+Attribute	./src/xml/dom/tinyxml.cpp	/^const std::string* TiXmlElement::Attribute( const std::string& name, double* d ) const$/;"	f	class:TiXmlElement
+Attribute	./src/xml/dom/tinyxml.cpp	/^const std::string* TiXmlElement::Attribute( const std::string& name, int* i ) const$/;"	f	class:TiXmlElement
+BLOCKMAPRESERVE	./vld-1.9h/src/vld.cpp	46;"	d	file:
+BOM	./vld-1.9h/src/utility.h	40;"	d
+BPREG	./vld-1.9h/src/utility.h	48;"	d
+BPREG	./vld-1.9h/src/utility.h	55;"	d
+BSIZE	./vld-1.9h/src/vld.cpp	723;"	d	file:
+BYTEFORMATBUFFERLENGTH	./vld-1.9h/src/utility.h	72;"	d
+Blank	./src/xml/dom/tinyxmlparser.cpp	/^bool TiXmlText::Blank() const$/;"	f	class:TiXmlText
+BlockMap	./vld-1.9h/src/vldint.h	/^typedef Map<LPCVOID, blockinfo_t*> BlockMap;$/;"	t
+CALLSTACKCHUNKSIZE	./vld-1.9h/src/callstack.h	34;"	d
+CALLSTACK_STATUS_INCOMPLETE	./vld-1.9h/src/callstack.h	74;"	d
+CC	./Makefile	/^export CC                       = gcc$/;"	m
+CDATA	./src/xml/dom/tinyxml.h	/^	bool CDATA() const				{ return cdata; }$/;"	f	class:TiXmlText
+COMMENT	./src/xml/dom/tinyxml.h	/^		COMMENT,$/;"	e	enum:TiXmlNode::NodeType
+CPP	./Makefile	/^export CPP                      = g++$/;"	m
+CRTDBGBLOCKDATA	./vld-1.9h/src/vldheap.h	80;"	d
+CRTDBGBLOCKHEADER	./vld-1.9h/src/vldheap.h	79;"	d
+CRT_USE_CLIENT	./vld-1.9h/src/vldheap.h	57;"	d
+CRT_USE_FREE	./vld-1.9h/src/vldheap.h	53;"	d
+CRT_USE_IGNORE	./vld-1.9h/src/vldheap.h	56;"	d
+CRT_USE_INTERNAL	./vld-1.9h/src/vldheap.h	55;"	d
+CRT_USE_NORMAL	./vld-1.9h/src/vldheap.h	54;"	d
+CRT_USE_TYPE	./vld-1.9h/src/vldheap.h	63;"	d
+CStr	./src/xml/dom/tinyxml.h	/^	const char* CStr()								{ return buffer.c_str(); }$/;"	f	class:TiXmlPrinter
+CallStack	./vld-1.9h/src/callstack.cpp	/^CallStack::CallStack ()$/;"	f	class:CallStack
+CallStack	./vld-1.9h/src/callstack.cpp	/^CallStack::CallStack (const CallStack &)$/;"	f	class:CallStack
+CallStack	./vld-1.9h/src/callstack.h	/^class CallStack$/;"	c
+Child	./src/xml/dom/tinyxml.cpp	/^TiXmlHandle TiXmlHandle::Child( const char* value, int count ) const$/;"	f	class:TiXmlHandle
+Child	./src/xml/dom/tinyxml.cpp	/^TiXmlHandle TiXmlHandle::Child( int count ) const$/;"	f	class:TiXmlHandle
+Child	./src/xml/dom/tinyxml.h	/^	TiXmlHandle Child( const std::string& _value, int index ) const			{ return Child( _value.c_str(), index ); }$/;"	f	class:TiXmlHandle
+ChildElement	./src/xml/dom/tinyxml.cpp	/^TiXmlHandle TiXmlHandle::ChildElement( const char* value, int count ) const$/;"	f	class:TiXmlHandle
+ChildElement	./src/xml/dom/tinyxml.cpp	/^TiXmlHandle TiXmlHandle::ChildElement( int count ) const$/;"	f	class:TiXmlHandle
+ChildElement	./src/xml/dom/tinyxml.h	/^	TiXmlHandle ChildElement( const std::string& _value, int index ) const	{ return ChildElement( _value.c_str(), index ); }$/;"	f	class:TiXmlHandle
+Clear	./src/xml/dom/tinyxml.cpp	/^void TiXmlNode::Clear()$/;"	f	class:TiXmlNode
+Clear	./src/xml/dom/tinyxml.h	/^	void Clear()		{ row = col = -1; }$/;"	f	struct:TiXmlCursor
+ClearError	./src/xml/dom/tinyxml.h	/^	void ClearError()						{	error = false; $/;"	f	class:TiXmlDocument
+ClearThis	./src/xml/dom/tinyxml.cpp	/^void TiXmlElement::ClearThis()$/;"	f	class:TiXmlElement
+Clone	./src/xml/dom/tinyxml.cpp	/^TiXmlNode* TiXmlComment::Clone() const$/;"	f	class:TiXmlComment
+Clone	./src/xml/dom/tinyxml.cpp	/^TiXmlNode* TiXmlDeclaration::Clone() const$/;"	f	class:TiXmlDeclaration
+Clone	./src/xml/dom/tinyxml.cpp	/^TiXmlNode* TiXmlDocument::Clone() const$/;"	f	class:TiXmlDocument
+Clone	./src/xml/dom/tinyxml.cpp	/^TiXmlNode* TiXmlElement::Clone() const$/;"	f	class:TiXmlElement
+Clone	./src/xml/dom/tinyxml.cpp	/^TiXmlNode* TiXmlText::Clone() const$/;"	f	class:TiXmlText
+Clone	./src/xml/dom/tinyxml.cpp	/^TiXmlNode* TiXmlUnknown::Clone() const$/;"	f	class:TiXmlUnknown
+CoGetMalloc_t	./vld-1.9h/src/vldint.h	/^typedef HRESULT (__stdcall *CoGetMalloc_t) (DWORD, LPMALLOC *);$/;"	t
+CoTaskMemAlloc_t	./vld-1.9h/src/vldint.h	/^typedef LPVOID (__stdcall *CoTaskMemAlloc_t) (ULONG);$/;"	t
+CoTaskMemRealloc_t	./vld-1.9h/src/vldint.h	/^typedef LPVOID (__stdcall *CoTaskMemRealloc_t) (LPVOID, ULONG);$/;"	t
+Column	./src/xml/dom/tinyxml.h	/^	int Column() const		{ return location.col + 1; }	\/\/\/< See Row()$/;"	f	class:TiXmlBase
+ConvertUTF32ToUTF8	./src/xml/dom/tinyxmlparser.cpp	/^void TiXmlBase::ConvertUTF32ToUTF8( unsigned long input, char* output, int* length )$/;"	f	class:TiXmlBase
+CopyTo	./src/xml/dom/tinyxml.cpp	/^void TiXmlComment::CopyTo( TiXmlComment* target ) const$/;"	f	class:TiXmlComment
+CopyTo	./src/xml/dom/tinyxml.cpp	/^void TiXmlDeclaration::CopyTo( TiXmlDeclaration* target ) const$/;"	f	class:TiXmlDeclaration
+CopyTo	./src/xml/dom/tinyxml.cpp	/^void TiXmlDocument::CopyTo( TiXmlDocument* target ) const$/;"	f	class:TiXmlDocument
+CopyTo	./src/xml/dom/tinyxml.cpp	/^void TiXmlElement::CopyTo( TiXmlElement* target ) const$/;"	f	class:TiXmlElement
+CopyTo	./src/xml/dom/tinyxml.cpp	/^void TiXmlNode::CopyTo( TiXmlNode* target ) const$/;"	f	class:TiXmlNode
+CopyTo	./src/xml/dom/tinyxml.cpp	/^void TiXmlText::CopyTo( TiXmlText* target ) const$/;"	f	class:TiXmlText
+CopyTo	./src/xml/dom/tinyxml.cpp	/^void TiXmlUnknown::CopyTo( TiXmlUnknown* target ) const$/;"	f	class:TiXmlUnknown
+Cursor	./src/xml/dom/tinyxmlparser.cpp	/^	const TiXmlCursor& Cursor()	{ return cursor; }$/;"	f	class:TiXmlParsingData
+DBGHELP_TRANSLATE_TCHAR	./vld-1.9h/src/callstack.cpp	29;"	d	file:
+DBGHELP_TRANSLATE_TCHAR	./vld-1.9h/src/utility.cpp	30;"	d	file:
+DBGHELP_TRANSLATE_TCHAR	./vld-1.9h/src/vld.cpp	34;"	d	file:
+DEBUG	./src/xml/dom/tinyxml.h	43;"	d
+DECLARATION	./src/xml/dom/tinyxml.h	/^		DECLARATION,$/;"	e	enum:TiXmlNode::NodeType
+DOCUMENT	./src/xml/dom/tinyxml.h	/^		DOCUMENT,$/;"	e	enum:TiXmlNode::NodeType
+DidAlloc	./vld-1.9h/src/vld.cpp	/^INT VisualLeakDetector::DidAlloc (LPVOID mem)$/;"	f	class:VisualLeakDetector
+DoIndent	./src/xml/dom/tinyxml.h	/^	void DoIndent()	{$/;"	f	class:TiXmlPrinter
+DoLineBreak	./src/xml/dom/tinyxml.h	/^	void DoLineBreak() {$/;"	f	class:TiXmlPrinter
+DoubleValue	./src/xml/dom/tinyxml.cpp	/^double  TiXmlAttribute::DoubleValue() const$/;"	f	class:TiXmlAttribute
+ELEMENT	./src/xml/dom/tinyxml.h	/^		ELEMENT,$/;"	e	enum:TiXmlNode::NodeType
+Element	./src/xml/dom/tinyxml.h	/^	TiXmlElement* Element() const	{ return ToElement(); }$/;"	f	class:TiXmlHandle
+EncodeString	./src/xml/dom/tinyxml.cpp	/^void TiXmlBase::EncodeString( const TIXML_STRING& str, TIXML_STRING* outString )$/;"	f	class:TiXmlBase
+Encoding	./src/xml/dom/tinyxml.h	/^	const char *Encoding() const		{ return encoding.c_str (); }$/;"	f	class:TiXmlDeclaration
+Entity	./src/xml/dom/tinyxml.h	/^	struct Entity$/;"	s	class:TiXmlBase
+Error	./src/xml/dom/tinyxml.h	/^	bool Error() const						{ return error; }$/;"	f	class:TiXmlDocument
+ErrorCol	./src/xml/dom/tinyxml.h	/^	int ErrorCol() const	{ return errorLocation.col+1; }	\/\/\/< The column where the error occured. See ErrorRow()$/;"	f	class:TiXmlDocument
+ErrorDesc	./src/xml/dom/tinyxml.h	/^	const char * ErrorDesc() const	{ return errorDesc.c_str (); }$/;"	f	class:TiXmlDocument
+ErrorId	./src/xml/dom/tinyxml.h	/^	int ErrorId()	const				{ return errorId; }$/;"	f	class:TiXmlDocument
+ErrorRow	./src/xml/dom/tinyxml.h	/^	int ErrorRow() const	{ return errorLocation.row+1; }$/;"	f	class:TiXmlDocument
+FRAMEPOINTER	./vld-1.9h/src/utility.h	61;"	d
+FastCallStack	./vld-1.9h/src/callstack.h	/^class FastCallStack : public CallStack$/;"	c
+Find	./src/xml/dom/tinyxml.cpp	/^const TiXmlAttribute* TiXmlAttributeSet::Find( const char* name ) const$/;"	f	class:TiXmlAttributeSet
+Find	./src/xml/dom/tinyxml.cpp	/^const TiXmlAttribute* TiXmlAttributeSet::Find( const std::string& name ) const$/;"	f	class:TiXmlAttributeSet
+Find	./src/xml/dom/tinyxml.h	/^	TiXmlAttribute*	Find( const char* _name ) {$/;"	f	class:TiXmlAttributeSet
+Find	./src/xml/dom/tinyxml.h	/^	TiXmlAttribute*	Find( const std::string& _name ) {$/;"	f	class:TiXmlAttributeSet
+First	./src/xml/dom/tinyxml.h	/^	TiXmlAttribute* First()					{ return ( sentinel.next == &sentinel ) ? 0 : sentinel.next; }$/;"	f	class:TiXmlAttributeSet
+First	./src/xml/dom/tinyxml.h	/^	const TiXmlAttribute* First()	const	{ return ( sentinel.next == &sentinel ) ? 0 : sentinel.next; }$/;"	f	class:TiXmlAttributeSet
+FirstAttribute	./src/xml/dom/tinyxml.h	/^	TiXmlAttribute* FirstAttribute() 				{ return attributeSet.First(); }$/;"	f	class:TiXmlElement
+FirstAttribute	./src/xml/dom/tinyxml.h	/^	const TiXmlAttribute* FirstAttribute() const	{ return attributeSet.First(); }		\/\/\/< Access the first attribute in this element.$/;"	f	class:TiXmlElement
+FirstChild	./src/xml/dom/tinyxml.cpp	/^TiXmlHandle TiXmlHandle::FirstChild( const char * value ) const$/;"	f	class:TiXmlHandle
+FirstChild	./src/xml/dom/tinyxml.cpp	/^TiXmlHandle TiXmlHandle::FirstChild() const$/;"	f	class:TiXmlHandle
+FirstChild	./src/xml/dom/tinyxml.cpp	/^const TiXmlNode* TiXmlNode::FirstChild( const char * _value ) const$/;"	f	class:TiXmlNode
+FirstChild	./src/xml/dom/tinyxml.h	/^	TiXmlHandle FirstChild( const std::string& _value ) const				{ return FirstChild( _value.c_str() ); }$/;"	f	class:TiXmlHandle
+FirstChild	./src/xml/dom/tinyxml.h	/^	TiXmlNode* FirstChild( const char * _value ) {$/;"	f	class:TiXmlNode
+FirstChild	./src/xml/dom/tinyxml.h	/^	TiXmlNode* FirstChild( const std::string& _value )				{	return FirstChild (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+FirstChild	./src/xml/dom/tinyxml.h	/^	TiXmlNode* FirstChild()						{ return firstChild; }$/;"	f	class:TiXmlNode
+FirstChild	./src/xml/dom/tinyxml.h	/^	const TiXmlNode* FirstChild( const std::string& _value ) const	{	return FirstChild (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+FirstChild	./src/xml/dom/tinyxml.h	/^	const TiXmlNode* FirstChild()	const		{ return firstChild; }	\/\/\/< The first child of this node. Will be null if there are no children.$/;"	f	class:TiXmlNode
+FirstChildElement	./src/xml/dom/tinyxml.cpp	/^TiXmlHandle TiXmlHandle::FirstChildElement( const char * value ) const$/;"	f	class:TiXmlHandle
+FirstChildElement	./src/xml/dom/tinyxml.cpp	/^TiXmlHandle TiXmlHandle::FirstChildElement() const$/;"	f	class:TiXmlHandle
+FirstChildElement	./src/xml/dom/tinyxml.cpp	/^const TiXmlElement* TiXmlNode::FirstChildElement( const char * _value ) const$/;"	f	class:TiXmlNode
+FirstChildElement	./src/xml/dom/tinyxml.cpp	/^const TiXmlElement* TiXmlNode::FirstChildElement() const$/;"	f	class:TiXmlNode
+FirstChildElement	./src/xml/dom/tinyxml.h	/^	TiXmlElement* FirstChildElement( const char * _value ) {$/;"	f	class:TiXmlNode
+FirstChildElement	./src/xml/dom/tinyxml.h	/^	TiXmlElement* FirstChildElement( const std::string& _value )				{	return FirstChildElement (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+FirstChildElement	./src/xml/dom/tinyxml.h	/^	TiXmlElement* FirstChildElement() {$/;"	f	class:TiXmlNode
+FirstChildElement	./src/xml/dom/tinyxml.h	/^	TiXmlHandle FirstChildElement( const std::string& _value ) const		{ return FirstChildElement( _value.c_str() ); }$/;"	f	class:TiXmlHandle
+FirstChildElement	./src/xml/dom/tinyxml.h	/^	const TiXmlElement* FirstChildElement( const std::string& _value ) const	{	return FirstChildElement (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+Free	./vld-1.9h/src/vld.cpp	/^VOID VisualLeakDetector::Free (LPVOID mem)$/;"	f	class:VisualLeakDetector
+GAPSIZE	./vld-1.9h/src/vldheap.h	34;"	d
+GetChar	./src/xml/dom/tinyxml.h	/^	inline static const char* GetChar( const char* p, char* _value, int* length, TiXmlEncoding encoding )$/;"	f	class:TiXmlBase
+GetDocument	./src/xml/dom/tinyxml.cpp	/^const TiXmlDocument* TiXmlNode::GetDocument() const$/;"	f	class:TiXmlNode
+GetDocument	./src/xml/dom/tinyxml.h	/^	TiXmlDocument* GetDocument() {$/;"	f	class:TiXmlNode
+GetEntity	./src/xml/dom/tinyxmlparser.cpp	/^const char* TiXmlBase::GetEntity( const char* p, char* value, int* length, TiXmlEncoding encoding )$/;"	f	class:TiXmlBase
+GetSize	./vld-1.9h/src/vld.cpp	/^ULONG VisualLeakDetector::GetSize (LPVOID mem)$/;"	f	class:VisualLeakDetector
+GetText	./src/xml/dom/tinyxml.cpp	/^const char* TiXmlElement::GetText() const$/;"	f	class:TiXmlElement
+GetUserData	./src/xml/dom/tinyxml.h	/^	const void* GetUserData() const 		{ return userData; }	\/\/\/< Get a pointer to arbitrary user data.$/;"	f	class:TiXmlBase
+GetUserData	./src/xml/dom/tinyxml.h	/^	void* GetUserData()						{ return userData; }	\/\/\/< Get a pointer to arbitrary user data.$/;"	f	class:TiXmlBase
+HEAPMAPRESERVE	./vld-1.9h/src/vld.cpp	47;"	d	file:
+HEXDUMPLINELENGTH	./vld-1.9h/src/utility.h	73;"	d
+HeapMap	./vld-1.9h/src/vldint.h	/^typedef Map<HANDLE, heapinfo_t*> HeapMap;$/;"	t
+HeapMinimize	./vld-1.9h/src/vld.cpp	/^VOID VisualLeakDetector::HeapMinimize ()$/;"	f	class:VisualLeakDetector
+ID	./src/main.cpp	/^	int	    ID;$/;"	m	struct:TextNode	file:
+IPREG	./vld-1.9h/src/utility.h	49;"	d
+IPREG	./vld-1.9h/src/utility.h	56;"	d
+Identify	./src/xml/dom/tinyxmlparser.cpp	/^TiXmlNode* TiXmlNode::Identify( const char* p, TiXmlEncoding encoding )$/;"	f	class:TiXmlNode
+Indent	./src/xml/dom/tinyxml.h	/^	const char* Indent()							{ return indent.c_str(); }$/;"	f	class:TiXmlPrinter
+InsertAfterChild	./src/xml/dom/tinyxml.cpp	/^TiXmlNode* TiXmlNode::InsertAfterChild( TiXmlNode* afterThis, const TiXmlNode& addThis )$/;"	f	class:TiXmlNode
+InsertBeforeChild	./src/xml/dom/tinyxml.cpp	/^TiXmlNode* TiXmlNode::InsertBeforeChild( TiXmlNode* beforeThis, const TiXmlNode& addThis )$/;"	f	class:TiXmlNode
+InsertEndChild	./src/xml/dom/tinyxml.cpp	/^TiXmlNode* TiXmlNode::InsertEndChild( const TiXmlNode& addThis )$/;"	f	class:TiXmlNode
+IntValue	./src/xml/dom/tinyxml.cpp	/^int TiXmlAttribute::IntValue() const$/;"	f	class:TiXmlAttribute
+IsAlpha	./src/xml/dom/tinyxmlparser.cpp	/^\/*static*\/ int TiXmlBase::IsAlpha( unsigned char anyByte, TiXmlEncoding \/*encoding*\/ )$/;"	f	class:TiXmlBase
+IsAlphaNum	./src/xml/dom/tinyxmlparser.cpp	/^\/*static*\/ int TiXmlBase::IsAlphaNum( unsigned char anyByte, TiXmlEncoding \/*encoding*\/ )$/;"	f	class:TiXmlBase
+IsWhiteSpace	./src/xml/dom/tinyxml.h	/^	inline static bool IsWhiteSpace( char c )		$/;"	f	class:TiXmlBase
+IsWhiteSpace	./src/xml/dom/tinyxml.h	/^	inline static bool IsWhiteSpace( int c )$/;"	f	class:TiXmlBase
+IsWhiteSpaceCondensed	./src/xml/dom/tinyxml.h	/^	static bool IsWhiteSpaceCondensed()						{ return condenseWhiteSpace; }$/;"	f	class:TiXmlBase
+IterateChildren	./src/xml/dom/tinyxml.cpp	/^const TiXmlNode* TiXmlNode::IterateChildren( const TiXmlNode* previous ) const$/;"	f	class:TiXmlNode
+IterateChildren	./src/xml/dom/tinyxml.cpp	/^const TiXmlNode* TiXmlNode::IterateChildren( const char * val, const TiXmlNode* previous ) const$/;"	f	class:TiXmlNode
+IterateChildren	./src/xml/dom/tinyxml.h	/^	TiXmlNode* IterateChildren( const TiXmlNode* previous ) {$/;"	f	class:TiXmlNode
+IterateChildren	./src/xml/dom/tinyxml.h	/^	TiXmlNode* IterateChildren( const char * _value, const TiXmlNode* previous ) {$/;"	f	class:TiXmlNode
+IterateChildren	./src/xml/dom/tinyxml.h	/^	TiXmlNode* IterateChildren( const std::string& _value, const TiXmlNode* previous ) {	return IterateChildren (_value.c_str (), previous);	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+IterateChildren	./src/xml/dom/tinyxml.h	/^	const TiXmlNode* IterateChildren( const std::string& _value, const TiXmlNode* previous ) const	{	return IterateChildren (_value.c_str (), previous);	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+Iterator	./vld-1.9h/src/map.h	/^        Iterator ()$/;"	f	class:Map::Iterator
+Iterator	./vld-1.9h/src/map.h	/^        Iterator (const Tree<Pair<Tk, Tv> > *tree, typename Tree<Pair<Tk, Tv> >::node_t *node)$/;"	f	class:Map::Iterator
+Iterator	./vld-1.9h/src/map.h	/^    class Iterator {$/;"	c	class:Map
+Iterator	./vld-1.9h/src/set.h	/^        Iterator ()$/;"	f	class:Set::Iterator
+Iterator	./vld-1.9h/src/set.h	/^        Iterator (const Tree<Tk> *tree, typename Tree<Tk>::node_t *node)$/;"	f	class:Set::Iterator
+Iterator	./vld-1.9h/src/set.h	/^    class Iterator {$/;"	c	class:Set
+LD	./Makefile	/^export LD                       = ld$/;"	m
+LDFLAGS	./Makefile	/^export LDFLAGS                  = -Wl,-O3$/;"	m
+LDFLAGS_SHARE	./Makefile	/^export LDFLAGS_SHARE    = -shared -Wl,-O3$/;"	m
+LIBDIR	./Makefile	/^LIBDIR = .\/lib\/x86$/;"	m
+LangID	./src/main.cpp	/^	std::string LangID;$/;"	m	struct:TextNode	file:
+Last	./src/xml/dom/tinyxml.h	/^	TiXmlAttribute* Last()					{ return ( sentinel.prev == &sentinel ) ? 0 : sentinel.prev; }$/;"	f	class:TiXmlAttributeSet
+Last	./src/xml/dom/tinyxml.h	/^	const TiXmlAttribute* Last() const		{ return ( sentinel.prev == &sentinel ) ? 0 : sentinel.prev; }$/;"	f	class:TiXmlAttributeSet
+LastAttribute	./src/xml/dom/tinyxml.h	/^	TiXmlAttribute* LastAttribute()					{ return attributeSet.Last(); }$/;"	f	class:TiXmlElement
+LastAttribute	./src/xml/dom/tinyxml.h	/^	const TiXmlAttribute* LastAttribute()	const 	{ return attributeSet.Last(); }		\/\/\/< Access the last attribute in this element.$/;"	f	class:TiXmlElement
+LastChild	./src/xml/dom/tinyxml.cpp	/^const TiXmlNode* TiXmlNode::LastChild( const char * _value ) const$/;"	f	class:TiXmlNode
+LastChild	./src/xml/dom/tinyxml.h	/^	TiXmlNode* LastChild( const char * _value ) {$/;"	f	class:TiXmlNode
+LastChild	./src/xml/dom/tinyxml.h	/^	TiXmlNode* LastChild( const std::string& _value )				{	return LastChild (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+LastChild	./src/xml/dom/tinyxml.h	/^	TiXmlNode* LastChild()	{ return lastChild; }$/;"	f	class:TiXmlNode
+LastChild	./src/xml/dom/tinyxml.h	/^	const TiXmlNode* LastChild( const std::string& _value ) const	{	return LastChild (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+LastChild	./src/xml/dom/tinyxml.h	/^	const TiXmlNode* LastChild() const	{ return lastChild; }		\/\/\/ The last child of this node. Will be null if there are no children.$/;"	f	class:TiXmlNode
+LdrLoadDll	./vld-1.9h/src/ntapi.cpp	/^LdrLoadDll_t        LdrLoadDll;$/;"	v
+LdrLoadDll_t	./vld-1.9h/src/ntapi.h	/^typedef NTSTATUS (__stdcall *LdrLoadDll_t) (LPWSTR, PDWORD, unicodestring_t *, PHANDLE);$/;"	t
+LineBreak	./src/xml/dom/tinyxml.h	/^	const char* LineBreak()							{ return lineBreak.c_str(); }$/;"	f	class:TiXmlPrinter
+LinkEndChild	./src/xml/dom/tinyxml.cpp	/^TiXmlNode* TiXmlNode::LinkEndChild( TiXmlNode* node )$/;"	f	class:TiXmlNode
+LoadFile	./src/xml/dom/tinyxml.cpp	/^bool TiXmlDocument::LoadFile( FILE* file, TiXmlEncoding encoding )$/;"	f	class:TiXmlDocument
+LoadFile	./src/xml/dom/tinyxml.cpp	/^bool TiXmlDocument::LoadFile( TiXmlEncoding encoding )$/;"	f	class:TiXmlDocument
+LoadFile	./src/xml/dom/tinyxml.cpp	/^bool TiXmlDocument::LoadFile( const char* _filename, TiXmlEncoding encoding )$/;"	f	class:TiXmlDocument
+LoadFile	./src/xml/dom/tinyxml.h	/^	bool LoadFile( const std::string& filename, TiXmlEncoding encoding = TIXML_DEFAULT_ENCODING )			\/\/\/< STL std::string version.$/;"	f	class:TiXmlDocument
+MAXMODULELISTLENGTH	./vld-1.9h/src/vldint.h	40;"	d
+MAXMODULENAME	./vld-1.9h/src/vld.cpp	519;"	d	file:
+MAXREPORTLENGTH	./vld-1.9h/src/utility.h	41;"	d
+MAXSYMBOLNAMELENGTH	./vld-1.9h/src/callstack.cpp	37;"	d	file:
+MAXSYMBOLNAMELENGTH	./vld-1.9h/src/vld.cpp	48;"	d	file:
+MAX_ENTITY_LENGTH	./src/xml/dom/tinyxml.h	/^		MAX_ENTITY_LENGTH = 6$/;"	e	enum:TiXmlBase::__anon4
+MODULESETRESERVE	./vld-1.9h/src/vld.cpp	49;"	d	file:
+Map	./vld-1.9h/src/map.h	/^class Map {$/;"	c
+ModuleSet	./vld-1.9h/src/vldint.h	/^typedef Set<moduleinfo_t> ModuleSet;$/;"	t
+Muterator	./vld-1.9h/src/set.h	/^    class Muterator : public Iterator$/;"	c	class:Set
+NTSTATUS	./vld-1.9h/src/ntapi.h	/^typedef LONG NTSTATUS;$/;"	t
+NUM_ENTITY	./src/xml/dom/tinyxml.h	/^		NUM_ENTITY = 5,$/;"	e	enum:TiXmlBase::__anon4
+Name	./src/xml/dom/tinyxml.h	/^	const char*		Name()  const		{ return name.c_str(); }		\/\/\/< Return the name of this attribute.$/;"	f	class:TiXmlAttribute
+NameTStr	./src/xml/dom/tinyxml.h	/^	const TIXML_STRING& NameTStr() const { return name; }$/;"	f	class:TiXmlAttribute
+Next	./src/xml/dom/tinyxml.cpp	/^const TiXmlAttribute* TiXmlAttribute::Next() const$/;"	f	class:TiXmlAttribute
+Next	./src/xml/dom/tinyxml.h	/^	TiXmlAttribute* Next() {$/;"	f	class:TiXmlAttribute
+NextSibling	./src/xml/dom/tinyxml.cpp	/^const TiXmlNode* TiXmlNode::NextSibling( const char * _value ) const $/;"	f	class:TiXmlNode
+NextSibling	./src/xml/dom/tinyxml.h	/^	TiXmlNode* NextSibling( const char* _next ) {$/;"	f	class:TiXmlNode
+NextSibling	./src/xml/dom/tinyxml.h	/^	TiXmlNode* NextSibling( const std::string& _value) 					{	return NextSibling (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+NextSibling	./src/xml/dom/tinyxml.h	/^	TiXmlNode* NextSibling()							{ return next; }$/;"	f	class:TiXmlNode
+NextSibling	./src/xml/dom/tinyxml.h	/^	const TiXmlNode* NextSibling( const std::string& _value) const		{	return NextSibling (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+NextSibling	./src/xml/dom/tinyxml.h	/^	const TiXmlNode* NextSibling() const				{ return next; }$/;"	f	class:TiXmlNode
+NextSiblingElement	./src/xml/dom/tinyxml.cpp	/^const TiXmlElement* TiXmlNode::NextSiblingElement( const char * _value ) const$/;"	f	class:TiXmlNode
+NextSiblingElement	./src/xml/dom/tinyxml.cpp	/^const TiXmlElement* TiXmlNode::NextSiblingElement() const$/;"	f	class:TiXmlNode
+NextSiblingElement	./src/xml/dom/tinyxml.h	/^	TiXmlElement* NextSiblingElement( const char *_next ) {$/;"	f	class:TiXmlNode
+NextSiblingElement	./src/xml/dom/tinyxml.h	/^	TiXmlElement* NextSiblingElement( const std::string& _value)				{	return NextSiblingElement (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+NextSiblingElement	./src/xml/dom/tinyxml.h	/^	TiXmlElement* NextSiblingElement() {$/;"	f	class:TiXmlNode
+NextSiblingElement	./src/xml/dom/tinyxml.h	/^	const TiXmlElement* NextSiblingElement( const std::string& _value) const	{	return NextSiblingElement (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+NoChildren	./src/xml/dom/tinyxml.h	/^	bool NoChildren() const						{ return !firstChild; }$/;"	f	class:TiXmlNode
+Node	./src/xml/dom/tinyxml.h	/^	TiXmlNode* Node() const			{ return ToNode(); } $/;"	f	class:TiXmlHandle
+NodeType	./src/xml/dom/tinyxml.h	/^	enum NodeType$/;"	g	class:TiXmlNode
+Pair	./vld-1.9h/src/map.h	/^    Pair ()$/;"	f	class:Pair
+Pair	./vld-1.9h/src/map.h	/^    Pair (const Tf &f, const Ts &s)$/;"	f	class:Pair
+Pair	./vld-1.9h/src/map.h	/^class Pair {$/;"	c
+Parent	./src/xml/dom/tinyxml.h	/^	TiXmlNode* Parent()							{ return parent; }$/;"	f	class:TiXmlNode
+Parent	./src/xml/dom/tinyxml.h	/^	const TiXmlNode* Parent() const				{ return parent; }$/;"	f	class:TiXmlNode
+Parse	./src/xml/dom/tinyxmlparser.cpp	/^const char* TiXmlAttribute::Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding )$/;"	f	class:TiXmlAttribute
+Parse	./src/xml/dom/tinyxmlparser.cpp	/^const char* TiXmlComment::Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding )$/;"	f	class:TiXmlComment
+Parse	./src/xml/dom/tinyxmlparser.cpp	/^const char* TiXmlDeclaration::Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding _encoding )$/;"	f	class:TiXmlDeclaration
+Parse	./src/xml/dom/tinyxmlparser.cpp	/^const char* TiXmlDocument::Parse( const char* p, TiXmlParsingData* prevData, TiXmlEncoding encoding )$/;"	f	class:TiXmlDocument
+Parse	./src/xml/dom/tinyxmlparser.cpp	/^const char* TiXmlElement::Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding )$/;"	f	class:TiXmlElement
+Parse	./src/xml/dom/tinyxmlparser.cpp	/^const char* TiXmlText::Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding )$/;"	f	class:TiXmlText
+Parse	./src/xml/dom/tinyxmlparser.cpp	/^const char* TiXmlUnknown::Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding )$/;"	f	class:TiXmlUnknown
+Previous	./src/xml/dom/tinyxml.cpp	/^const TiXmlAttribute* TiXmlAttribute::Previous() const$/;"	f	class:TiXmlAttribute
+Previous	./src/xml/dom/tinyxml.h	/^	TiXmlAttribute* Previous() {$/;"	f	class:TiXmlAttribute
+PreviousSibling	./src/xml/dom/tinyxml.cpp	/^const TiXmlNode* TiXmlNode::PreviousSibling( const char * _value ) const$/;"	f	class:TiXmlNode
+PreviousSibling	./src/xml/dom/tinyxml.h	/^	TiXmlNode* PreviousSibling( const char *_prev ) {$/;"	f	class:TiXmlNode
+PreviousSibling	./src/xml/dom/tinyxml.h	/^	TiXmlNode* PreviousSibling( const std::string& _value ) 			{	return PreviousSibling (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+PreviousSibling	./src/xml/dom/tinyxml.h	/^	TiXmlNode* PreviousSibling()						{ return prev; }$/;"	f	class:TiXmlNode
+PreviousSibling	./src/xml/dom/tinyxml.h	/^	const TiXmlNode* PreviousSibling( const std::string& _value ) const	{	return PreviousSibling (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+PreviousSibling	./src/xml/dom/tinyxml.h	/^	const TiXmlNode* PreviousSibling() const			{ return prev; }$/;"	f	class:TiXmlNode
+Print	./src/xml/dom/tinyxml.cpp	/^void TiXmlAttribute::Print( FILE* cfile, int \/*depth*\/, TIXML_STRING* str ) const$/;"	f	class:TiXmlAttribute
+Print	./src/xml/dom/tinyxml.cpp	/^void TiXmlComment::Print( FILE* cfile, int depth ) const$/;"	f	class:TiXmlComment
+Print	./src/xml/dom/tinyxml.cpp	/^void TiXmlDeclaration::Print( FILE* cfile, int \/*depth*\/, TIXML_STRING* str ) const$/;"	f	class:TiXmlDeclaration
+Print	./src/xml/dom/tinyxml.cpp	/^void TiXmlDocument::Print( FILE* cfile, int depth ) const$/;"	f	class:TiXmlDocument
+Print	./src/xml/dom/tinyxml.cpp	/^void TiXmlElement::Print( FILE* cfile, int depth ) const$/;"	f	class:TiXmlElement
+Print	./src/xml/dom/tinyxml.cpp	/^void TiXmlText::Print( FILE* cfile, int depth ) const$/;"	f	class:TiXmlText
+Print	./src/xml/dom/tinyxml.cpp	/^void TiXmlUnknown::Print( FILE* cfile, int depth ) const$/;"	f	class:TiXmlUnknown
+Print	./src/xml/dom/tinyxml.h	/^	virtual void Print( FILE* cfile, int depth ) const {$/;"	f	class:TiXmlAttribute
+Print	./src/xml/dom/tinyxml.h	/^	virtual void Print( FILE* cfile, int depth ) const {$/;"	f	class:TiXmlDeclaration
+Print	./src/xml/dom/tinyxml.h	/^	void Print() const						{ Print( stdout, 0 ); }$/;"	f	class:TiXmlDocument
+QueryDoubleAttribute	./src/xml/dom/tinyxml.cpp	/^int TiXmlElement::QueryDoubleAttribute( const char* name, double* dval ) const$/;"	f	class:TiXmlElement
+QueryDoubleAttribute	./src/xml/dom/tinyxml.cpp	/^int TiXmlElement::QueryDoubleAttribute( const std::string& name, double* dval ) const$/;"	f	class:TiXmlElement
+QueryDoubleValue	./src/xml/dom/tinyxml.cpp	/^int TiXmlAttribute::QueryDoubleValue( double* dval ) const$/;"	f	class:TiXmlAttribute
+QueryFloatAttribute	./src/xml/dom/tinyxml.h	/^	int QueryFloatAttribute( const char* name, float* _value ) const {$/;"	f	class:TiXmlElement
+QueryIntAttribute	./src/xml/dom/tinyxml.cpp	/^int TiXmlElement::QueryIntAttribute( const char* name, int* ival ) const$/;"	f	class:TiXmlElement
+QueryIntAttribute	./src/xml/dom/tinyxml.cpp	/^int TiXmlElement::QueryIntAttribute( const std::string& name, int* ival ) const$/;"	f	class:TiXmlElement
+QueryIntValue	./src/xml/dom/tinyxml.cpp	/^int TiXmlAttribute::QueryIntValue( int* ival ) const$/;"	f	class:TiXmlAttribute
+QueryInterface	./vld-1.9h/src/vld.cpp	/^HRESULT VisualLeakDetector::QueryInterface (REFIID iid, LPVOID *object)$/;"	f	class:VisualLeakDetector
+QueryValueAttribute	./src/xml/dom/tinyxml.h	/^	template< typename T > int QueryValueAttribute( const std::string& name, T* outValue ) const$/;"	f	class:TiXmlElement
+R2VA	./vld-1.9h/src/utility.h	71;"	d
+ReadName	./src/xml/dom/tinyxmlparser.cpp	/^const char* TiXmlBase::ReadName( const char* p, TIXML_STRING * name, TiXmlEncoding encoding )$/;"	f	class:TiXmlBase
+ReadText	./src/xml/dom/tinyxmlparser.cpp	/^const char* TiXmlBase::ReadText(	const char* p, $/;"	f	class:TiXmlBase
+ReadValue	./src/xml/dom/tinyxmlparser.cpp	/^const char* TiXmlElement::ReadValue( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding )$/;"	f	class:TiXmlElement
+Realloc	./vld-1.9h/src/vld.cpp	/^LPVOID VisualLeakDetector::Realloc (LPVOID mem, ULONG size)$/;"	f	class:VisualLeakDetector
+Release	./vld-1.9h/src/vld.cpp	/^ULONG VisualLeakDetector::Release ()$/;"	f	class:VisualLeakDetector
+Remove	./src/xml/dom/tinyxml.cpp	/^void TiXmlAttributeSet::Remove( TiXmlAttribute* removeMe )$/;"	f	class:TiXmlAttributeSet
+RemoveAttribute	./src/xml/dom/tinyxml.cpp	/^void TiXmlElement::RemoveAttribute( const char * name )$/;"	f	class:TiXmlElement
+RemoveAttribute	./src/xml/dom/tinyxml.h	/^	void RemoveAttribute( const std::string& name )	{	RemoveAttribute (name.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlElement
+RemoveChild	./src/xml/dom/tinyxml.cpp	/^bool TiXmlNode::RemoveChild( TiXmlNode* removeThis )$/;"	f	class:TiXmlNode
+Rep	./src/xml/dom/tinystr.h	/^	struct Rep$/;"	s	class:TiXmlString
+ReplaceChild	./src/xml/dom/tinyxml.cpp	/^TiXmlNode* TiXmlNode::ReplaceChild( TiXmlNode* replaceThis, const TiXmlNode& withThis )$/;"	f	class:TiXmlNode
+RootElement	./src/xml/dom/tinyxml.h	/^	TiXmlElement* RootElement()					{ return FirstChildElement(); }$/;"	f	class:TiXmlDocument
+RootElement	./src/xml/dom/tinyxml.h	/^	const TiXmlElement* RootElement() const		{ return FirstChildElement(); }$/;"	f	class:TiXmlDocument
+Row	./src/xml/dom/tinyxml.h	/^	int Row() const			{ return location.row + 1; }$/;"	f	class:TiXmlBase
+RtlAllocateHeap	./vld-1.9h/src/ntapi.cpp	/^RtlAllocateHeap_t   RtlAllocateHeap;$/;"	v
+RtlAllocateHeap_t	./vld-1.9h/src/ntapi.h	/^typedef LPVOID (__stdcall *RtlAllocateHeap_t) (HANDLE, DWORD, SIZE_T);$/;"	t
+RtlFreeHeap	./vld-1.9h/src/ntapi.cpp	/^RtlFreeHeap_t       RtlFreeHeap;$/;"	v
+RtlFreeHeap_t	./vld-1.9h/src/ntapi.h	/^typedef BOOL (__stdcall *RtlFreeHeap_t) (HANDLE, DWORD, LPVOID);$/;"	t
+RtlReAllocateHeap	./vld-1.9h/src/ntapi.cpp	/^RtlReAllocateHeap_t RtlReAllocateHeap;$/;"	v
+RtlReAllocateHeap_t	./vld-1.9h/src/ntapi.h	/^typedef LPVOID (__stdcall *RtlReAllocateHeap_t) (HANDLE, DWORD, LPVOID, SIZE_T);$/;"	t
+SELFTESTTEXTA	./vld-1.9h/src/vldint.h	41;"	d
+SELFTESTTEXTW	./vld-1.9h/src/vldint.h	42;"	d
+SIZEOFPTR	./vld-1.9h/src/utility.h	45;"	d
+SIZEOFPTR	./vld-1.9h/src/utility.h	52;"	d
+SPREG	./vld-1.9h/src/utility.h	50;"	d
+SPREG	./vld-1.9h/src/utility.h	57;"	d
+STATUS_SUCCESS	./vld-1.9h/src/ntapi.h	36;"	d
+STRIP	./Makefile	/^export STRIP                    = strip$/;"	m
+SafeCallStack	./vld-1.9h/src/callstack.h	/^class SafeCallStack : public CallStack$/;"	c
+SaveFile	./src/xml/dom/tinyxml.cpp	/^bool TiXmlDocument::SaveFile( FILE* fp ) const$/;"	f	class:TiXmlDocument
+SaveFile	./src/xml/dom/tinyxml.cpp	/^bool TiXmlDocument::SaveFile( const char * filename ) const$/;"	f	class:TiXmlDocument
+SaveFile	./src/xml/dom/tinyxml.cpp	/^bool TiXmlDocument::SaveFile() const$/;"	f	class:TiXmlDocument
+SaveFile	./src/xml/dom/tinyxml.h	/^	bool SaveFile( const std::string& filename ) const		\/\/\/< STL std::string version.$/;"	f	class:TiXmlDocument
+Set	./vld-1.9h/src/set.h	/^class Set {$/;"	c
+SetAttribute	./src/xml/dom/tinyxml.cpp	/^void TiXmlElement::SetAttribute( const char * cname, const char * cvalue )$/;"	f	class:TiXmlElement
+SetAttribute	./src/xml/dom/tinyxml.cpp	/^void TiXmlElement::SetAttribute( const char * name, int val )$/;"	f	class:TiXmlElement
+SetAttribute	./src/xml/dom/tinyxml.cpp	/^void TiXmlElement::SetAttribute( const std::string& name, const std::string& _value )$/;"	f	class:TiXmlElement
+SetAttribute	./src/xml/dom/tinyxml.cpp	/^void TiXmlElement::SetAttribute( const std::string& name, int val )$/;"	f	class:TiXmlElement
+SetCDATA	./src/xml/dom/tinyxml.h	/^	void SetCDATA( bool _cdata )	{ cdata = _cdata; }$/;"	f	class:TiXmlText
+SetCondenseWhiteSpace	./src/xml/dom/tinyxml.h	/^	static void SetCondenseWhiteSpace( bool condense )		{ condenseWhiteSpace = condense; }$/;"	f	class:TiXmlBase
+SetDocument	./src/xml/dom/tinyxml.h	/^	void SetDocument( TiXmlDocument* doc )	{ document = doc; }$/;"	f	class:TiXmlAttribute
+SetDoubleAttribute	./src/xml/dom/tinyxml.cpp	/^void TiXmlElement::SetDoubleAttribute( const char * name, double val )$/;"	f	class:TiXmlElement
+SetDoubleValue	./src/xml/dom/tinyxml.cpp	/^void TiXmlAttribute::SetDoubleValue( double _value )$/;"	f	class:TiXmlAttribute
+SetError	./src/xml/dom/tinyxmlparser.cpp	/^void TiXmlDocument::SetError( int err, const char* pError, TiXmlParsingData* data, TiXmlEncoding encoding )$/;"	f	class:TiXmlDocument
+SetIndent	./src/xml/dom/tinyxml.h	/^	void SetIndent( const char* _indent )			{ indent = _indent ? _indent : "" ; }$/;"	f	class:TiXmlPrinter
+SetIntValue	./src/xml/dom/tinyxml.cpp	/^void TiXmlAttribute::SetIntValue( int _value )$/;"	f	class:TiXmlAttribute
+SetLineBreak	./src/xml/dom/tinyxml.h	/^	void SetLineBreak( const char* _lineBreak )		{ lineBreak = _lineBreak ? _lineBreak : ""; }$/;"	f	class:TiXmlPrinter
+SetName	./src/xml/dom/tinyxml.h	/^	void SetName( const char* _name )	{ name = _name; }				\/\/\/< Set the name of this attribute.$/;"	f	class:TiXmlAttribute
+SetName	./src/xml/dom/tinyxml.h	/^	void SetName( const std::string& _name )	{ name = _name; }	$/;"	f	class:TiXmlAttribute
+SetStreamPrinting	./src/xml/dom/tinyxml.h	/^	void SetStreamPrinting()						{ indent = "";$/;"	f	class:TiXmlPrinter
+SetTabSize	./src/xml/dom/tinyxml.h	/^	void SetTabSize( int _tabsize )		{ tabsize = _tabsize; }$/;"	f	class:TiXmlDocument
+SetUserData	./src/xml/dom/tinyxml.h	/^	void  SetUserData( void* user )			{ userData = user; }	\/\/\/< Set a pointer to arbitrary user data.$/;"	f	class:TiXmlBase
+SetValue	./src/xml/dom/tinyxml.h	/^	void SetValue( const char* _value )	{ value = _value; }				\/\/\/< Set the value.$/;"	f	class:TiXmlAttribute
+SetValue	./src/xml/dom/tinyxml.h	/^	void SetValue( const std::string& _value )	{ value = _value; }$/;"	f	class:TiXmlAttribute
+SetValue	./src/xml/dom/tinyxml.h	/^	void SetValue( const std::string& _value )	{ value = _value; }$/;"	f	class:TiXmlNode
+SetValue	./src/xml/dom/tinyxml.h	/^	void SetValue(const char * _value) { value = _value;}$/;"	f	class:TiXmlNode
+Size	./src/xml/dom/tinyxml.h	/^	size_t Size()									{ return buffer.size(); }$/;"	f	class:TiXmlPrinter
+SkipWhiteSpace	./src/xml/dom/tinyxmlparser.cpp	/^const char* TiXmlBase::SkipWhiteSpace( const char* p, TiXmlEncoding encoding )$/;"	f	class:TiXmlBase
+Stamp	./src/xml/dom/tinyxmlparser.cpp	/^void TiXmlParsingData::Stamp( const char* now, TiXmlEncoding encoding )$/;"	f	class:TiXmlParsingData
+Standalone	./src/xml/dom/tinyxml.h	/^	const char *Standalone() const		{ return standalone.c_str (); }$/;"	f	class:TiXmlDeclaration
+Str	./src/xml/dom/tinyxml.h	/^	const std::string& Str()						{ return buffer; }$/;"	f	class:TiXmlPrinter
+StreamIn	./src/xml/dom/tinyxmlparser.cpp	/^void TiXmlComment::StreamIn( std::istream * in, TIXML_STRING * tag )$/;"	f	class:TiXmlComment
+StreamIn	./src/xml/dom/tinyxmlparser.cpp	/^void TiXmlDeclaration::StreamIn( std::istream * in, TIXML_STRING * tag )$/;"	f	class:TiXmlDeclaration
+StreamIn	./src/xml/dom/tinyxmlparser.cpp	/^void TiXmlDocument::StreamIn( std::istream * in, TIXML_STRING * tag )$/;"	f	class:TiXmlDocument
+StreamIn	./src/xml/dom/tinyxmlparser.cpp	/^void TiXmlElement::StreamIn (std::istream * in, TIXML_STRING * tag)$/;"	f	class:TiXmlElement
+StreamIn	./src/xml/dom/tinyxmlparser.cpp	/^void TiXmlText::StreamIn( std::istream * in, TIXML_STRING * tag )$/;"	f	class:TiXmlText
+StreamIn	./src/xml/dom/tinyxmlparser.cpp	/^void TiXmlUnknown::StreamIn( std::istream * in, TIXML_STRING * tag )$/;"	f	class:TiXmlUnknown
+StreamTo	./src/xml/dom/tinyxmlparser.cpp	/^\/*static*\/ bool TiXmlBase::StreamTo( std::istream * in, int character, TIXML_STRING * tag )$/;"	f	class:TiXmlBase
+StreamWhiteSpace	./src/xml/dom/tinyxmlparser.cpp	/^\/*static*\/ bool TiXmlBase::StreamWhiteSpace( std::istream * in, TIXML_STRING * tag )$/;"	f	class:TiXmlBase
+StringEqual	./src/xml/dom/tinyxmlparser.cpp	/^bool TiXmlBase::StringEqual( const char* p,$/;"	f	class:TiXmlBase
+TARGET	./Makefile	/^TARGET =$/;"	m
+TEST_XML_PATH	./src/main.cpp	16;"	d	file:
+TEXT	./src/xml/dom/tinyxml.h	/^		TEXT,$/;"	e	enum:TiXmlNode::NodeType
+TEXTNODE	./src/main.cpp	/^}TEXTNODE;$/;"	t	typeref:struct:TextNode	file:
+TEXT_OUT	./src/main.cpp	17;"	d	file:
+TINYXML_INCLUDED	./src/xml/dom/tinyxml.h	27;"	d
+TIXML_DEFAULT_ENCODING	./src/xml/dom/tinyxml.h	/^const TiXmlEncoding TIXML_DEFAULT_ENCODING = TIXML_ENCODING_UNKNOWN;$/;"	v
+TIXML_ENCODING_LEGACY	./src/xml/dom/tinyxml.h	/^	TIXML_ENCODING_LEGACY$/;"	e	enum:TiXmlEncoding
+TIXML_ENCODING_UNKNOWN	./src/xml/dom/tinyxml.h	/^	TIXML_ENCODING_UNKNOWN,$/;"	e	enum:TiXmlEncoding
+TIXML_ENCODING_UTF8	./src/xml/dom/tinyxml.h	/^	TIXML_ENCODING_UTF8,$/;"	e	enum:TiXmlEncoding
+TIXML_ERROR	./src/xml/dom/tinyxml.h	/^		TIXML_ERROR,$/;"	e	enum:TiXmlBase::__anon3
+TIXML_ERROR_DOCUMENT_EMPTY	./src/xml/dom/tinyxml.h	/^		TIXML_ERROR_DOCUMENT_EMPTY,$/;"	e	enum:TiXmlBase::__anon3
+TIXML_ERROR_DOCUMENT_TOP_ONLY	./src/xml/dom/tinyxml.h	/^		TIXML_ERROR_DOCUMENT_TOP_ONLY,$/;"	e	enum:TiXmlBase::__anon3
+TIXML_ERROR_EMBEDDED_NULL	./src/xml/dom/tinyxml.h	/^		TIXML_ERROR_EMBEDDED_NULL,$/;"	e	enum:TiXmlBase::__anon3
+TIXML_ERROR_FAILED_TO_READ_ELEMENT_NAME	./src/xml/dom/tinyxml.h	/^		TIXML_ERROR_FAILED_TO_READ_ELEMENT_NAME,$/;"	e	enum:TiXmlBase::__anon3
+TIXML_ERROR_OPENING_FILE	./src/xml/dom/tinyxml.h	/^		TIXML_ERROR_OPENING_FILE,$/;"	e	enum:TiXmlBase::__anon3
+TIXML_ERROR_OUT_OF_MEMORY	./src/xml/dom/tinyxml.h	/^		TIXML_ERROR_OUT_OF_MEMORY,$/;"	e	enum:TiXmlBase::__anon3
+TIXML_ERROR_PARSING_CDATA	./src/xml/dom/tinyxml.h	/^		TIXML_ERROR_PARSING_CDATA,$/;"	e	enum:TiXmlBase::__anon3
+TIXML_ERROR_PARSING_COMMENT	./src/xml/dom/tinyxml.h	/^		TIXML_ERROR_PARSING_COMMENT,$/;"	e	enum:TiXmlBase::__anon3
+TIXML_ERROR_PARSING_DECLARATION	./src/xml/dom/tinyxml.h	/^		TIXML_ERROR_PARSING_DECLARATION,$/;"	e	enum:TiXmlBase::__anon3
+TIXML_ERROR_PARSING_ELEMENT	./src/xml/dom/tinyxml.h	/^		TIXML_ERROR_PARSING_ELEMENT,$/;"	e	enum:TiXmlBase::__anon3
+TIXML_ERROR_PARSING_EMPTY	./src/xml/dom/tinyxml.h	/^		TIXML_ERROR_PARSING_EMPTY,$/;"	e	enum:TiXmlBase::__anon3
+TIXML_ERROR_PARSING_UNKNOWN	./src/xml/dom/tinyxml.h	/^		TIXML_ERROR_PARSING_UNKNOWN,$/;"	e	enum:TiXmlBase::__anon3
+TIXML_ERROR_READING_ATTRIBUTES	./src/xml/dom/tinyxml.h	/^		TIXML_ERROR_READING_ATTRIBUTES,$/;"	e	enum:TiXmlBase::__anon3
+TIXML_ERROR_READING_ELEMENT_VALUE	./src/xml/dom/tinyxml.h	/^		TIXML_ERROR_READING_ELEMENT_VALUE,$/;"	e	enum:TiXmlBase::__anon3
+TIXML_ERROR_READING_END_TAG	./src/xml/dom/tinyxml.h	/^		TIXML_ERROR_READING_END_TAG,$/;"	e	enum:TiXmlBase::__anon3
+TIXML_ERROR_STRING_COUNT	./src/xml/dom/tinyxml.h	/^		TIXML_ERROR_STRING_COUNT$/;"	e	enum:TiXmlBase::__anon3
+TIXML_EXPLICIT	./src/xml/dom/tinystr.h	51;"	d
+TIXML_EXPLICIT	./src/xml/dom/tinystr.h	54;"	d
+TIXML_EXPLICIT	./src/xml/dom/tinystr.h	56;"	d
+TIXML_LOG	./src/xml/dom/tinyxmlparser.cpp	35;"	d	file:
+TIXML_LOG	./src/xml/dom/tinyxmlparser.cpp	37;"	d	file:
+TIXML_MAJOR_VERSION	./src/xml/dom/tinyxml.h	/^const int TIXML_MAJOR_VERSION = 2;$/;"	v
+TIXML_MINOR_VERSION	./src/xml/dom/tinyxml.h	/^const int TIXML_MINOR_VERSION = 5;$/;"	v
+TIXML_NO_ATTRIBUTE	./src/xml/dom/tinyxml.h	/^	TIXML_NO_ATTRIBUTE,$/;"	e	enum:__anon2
+TIXML_NO_ERROR	./src/xml/dom/tinyxml.h	/^		TIXML_NO_ERROR = 0,$/;"	e	enum:TiXmlBase::__anon3
+TIXML_PATCH_VERSION	./src/xml/dom/tinyxml.h	/^const int TIXML_PATCH_VERSION = 3;$/;"	v
+TIXML_SAFE	./src/xml/dom/tinyxml.h	60;"	d
+TIXML_SNPRINTF	./src/xml/dom/tinyxml.h	68;"	d
+TIXML_SNPRINTF	./src/xml/dom/tinyxml.h	74;"	d
+TIXML_SNPRINTF	./src/xml/dom/tinyxml.h	80;"	d
+TIXML_SNSCANF	./src/xml/dom/tinyxml.h	69;"	d
+TIXML_SNSCANF	./src/xml/dom/tinyxml.h	75;"	d
+TIXML_SNSCANF	./src/xml/dom/tinyxml.h	81;"	d
+TIXML_SSCANF	./src/xml/dom/tinyxml.h	70;"	d
+TIXML_SSCANF	./src/xml/dom/tinyxml.h	76;"	d
+TIXML_SSCANF	./src/xml/dom/tinyxml.h	82;"	d
+TIXML_SSCANF	./src/xml/dom/tinyxml.h	84;"	d
+TIXML_STRING	./src/xml/dom/tinyxml.h	50;"	d
+TIXML_STRING	./src/xml/dom/tinyxml.h	53;"	d
+TIXML_STRING_INCLUDED	./src/xml/dom/tinystr.h	40;"	d
+TIXML_SUCCESS	./src/xml/dom/tinyxml.h	/^	TIXML_SUCCESS,$/;"	e	enum:__anon2
+TIXML_UTF_LEAD_0	./src/xml/dom/tinyxmlparser.cpp	/^const unsigned char TIXML_UTF_LEAD_0 = 0xefU;$/;"	v
+TIXML_UTF_LEAD_1	./src/xml/dom/tinyxmlparser.cpp	/^const unsigned char TIXML_UTF_LEAD_1 = 0xbbU;$/;"	v
+TIXML_UTF_LEAD_2	./src/xml/dom/tinyxmlparser.cpp	/^const unsigned char TIXML_UTF_LEAD_2 = 0xbfU;$/;"	v
+TIXML_WRONG_TYPE	./src/xml/dom/tinyxml.h	/^	TIXML_WRONG_TYPE$/;"	e	enum:__anon2
+TREE_DEFAULT_RESERVE	./vld-1.9h/src/tree.h	34;"	d
+TYPECOUNT	./src/xml/dom/tinyxml.h	/^		TYPECOUNT$/;"	e	enum:TiXmlNode::NodeType
+TabSize	./src/xml/dom/tinyxml.h	/^	int TabSize() const	{ return tabsize; }$/;"	f	class:TiXmlDocument
+Text	./src/main.cpp	/^	std::string Text;$/;"	m	struct:TextNode	file:
+Text	./src/xml/dom/tinyxml.h	/^	TiXmlText* Text() const			{ return ToText(); }$/;"	f	class:TiXmlHandle
+TextNode	./src/main.cpp	/^typedef struct TextNode$/;"	s	file:
+TiXmlAttribute	./src/xml/dom/tinyxml.h	/^	TiXmlAttribute( const char * _name, const char * _value )$/;"	f	class:TiXmlAttribute
+TiXmlAttribute	./src/xml/dom/tinyxml.h	/^	TiXmlAttribute( const std::string& _name, const std::string& _value )$/;"	f	class:TiXmlAttribute
+TiXmlAttribute	./src/xml/dom/tinyxml.h	/^	TiXmlAttribute() : TiXmlBase()$/;"	f	class:TiXmlAttribute
+TiXmlAttribute	./src/xml/dom/tinyxml.h	/^class TiXmlAttribute : public TiXmlBase$/;"	c
+TiXmlAttributeSet	./src/xml/dom/tinyxml.cpp	/^TiXmlAttributeSet::TiXmlAttributeSet()$/;"	f	class:TiXmlAttributeSet
+TiXmlAttributeSet	./src/xml/dom/tinyxml.h	/^class TiXmlAttributeSet$/;"	c
+TiXmlBase	./src/xml/dom/tinyxml.h	/^	TiXmlBase()	:	userData(0)		{}$/;"	f	class:TiXmlBase
+TiXmlBase	./src/xml/dom/tinyxml.h	/^class TiXmlBase$/;"	c
+TiXmlComment	./src/xml/dom/tinyxml.cpp	/^TiXmlComment::TiXmlComment( const TiXmlComment& copy ) : TiXmlNode( TiXmlNode::COMMENT )$/;"	f	class:TiXmlComment
+TiXmlComment	./src/xml/dom/tinyxml.h	/^	TiXmlComment( const char* _value ) : TiXmlNode( TiXmlNode::COMMENT ) {$/;"	f	class:TiXmlComment
+TiXmlComment	./src/xml/dom/tinyxml.h	/^	TiXmlComment() : TiXmlNode( TiXmlNode::COMMENT ) {}$/;"	f	class:TiXmlComment
+TiXmlComment	./src/xml/dom/tinyxml.h	/^class TiXmlComment : public TiXmlNode$/;"	c
+TiXmlCursor	./src/xml/dom/tinyxml.h	/^	TiXmlCursor()		{ Clear(); }$/;"	f	struct:TiXmlCursor
+TiXmlCursor	./src/xml/dom/tinyxml.h	/^struct TiXmlCursor$/;"	s
+TiXmlDeclaration	./src/xml/dom/tinyxml.cpp	/^TiXmlDeclaration::TiXmlDeclaration(	const std::string& _version,$/;"	f	class:TiXmlDeclaration
+TiXmlDeclaration	./src/xml/dom/tinyxml.cpp	/^TiXmlDeclaration::TiXmlDeclaration( const TiXmlDeclaration& copy )$/;"	f	class:TiXmlDeclaration
+TiXmlDeclaration	./src/xml/dom/tinyxml.cpp	/^TiXmlDeclaration::TiXmlDeclaration( const char * _version,$/;"	f	class:TiXmlDeclaration
+TiXmlDeclaration	./src/xml/dom/tinyxml.h	/^	TiXmlDeclaration()   : TiXmlNode( TiXmlNode::DECLARATION ) {}$/;"	f	class:TiXmlDeclaration
+TiXmlDeclaration	./src/xml/dom/tinyxml.h	/^class TiXmlDeclaration : public TiXmlNode$/;"	c
+TiXmlDocument	./src/xml/dom/tinyxml.cpp	/^TiXmlDocument::TiXmlDocument( const TiXmlDocument& copy ) : TiXmlNode( TiXmlNode::DOCUMENT )$/;"	f	class:TiXmlDocument
+TiXmlDocument	./src/xml/dom/tinyxml.cpp	/^TiXmlDocument::TiXmlDocument( const char * documentName ) : TiXmlNode( TiXmlNode::DOCUMENT )$/;"	f	class:TiXmlDocument
+TiXmlDocument	./src/xml/dom/tinyxml.cpp	/^TiXmlDocument::TiXmlDocument( const std::string& documentName ) : TiXmlNode( TiXmlNode::DOCUMENT )$/;"	f	class:TiXmlDocument
+TiXmlDocument	./src/xml/dom/tinyxml.cpp	/^TiXmlDocument::TiXmlDocument() : TiXmlNode( TiXmlNode::DOCUMENT )$/;"	f	class:TiXmlDocument
+TiXmlDocument	./src/xml/dom/tinyxml.h	/^class TiXmlDocument : public TiXmlNode$/;"	c
+TiXmlElement	./src/xml/dom/tinyxml.cpp	/^TiXmlElement::TiXmlElement (const char * _value)$/;"	f	class:TiXmlElement
+TiXmlElement	./src/xml/dom/tinyxml.cpp	/^TiXmlElement::TiXmlElement( const TiXmlElement& copy)$/;"	f	class:TiXmlElement
+TiXmlElement	./src/xml/dom/tinyxml.cpp	/^TiXmlElement::TiXmlElement( const std::string& _value ) $/;"	f	class:TiXmlElement
+TiXmlElement	./src/xml/dom/tinyxml.h	/^class TiXmlElement : public TiXmlNode$/;"	c
+TiXmlEncoding	./src/xml/dom/tinyxml.h	/^enum TiXmlEncoding$/;"	g
+TiXmlFOpen	./src/xml/dom/tinyxml.cpp	/^FILE* TiXmlFOpen( const char* filename, const char* mode )$/;"	f
+TiXmlHandle	./src/xml/dom/tinyxml.h	/^	TiXmlHandle( TiXmlNode* _node )					{ this->node = _node; }$/;"	f	class:TiXmlHandle
+TiXmlHandle	./src/xml/dom/tinyxml.h	/^	TiXmlHandle( const TiXmlHandle& ref )			{ this->node = ref.node; }$/;"	f	class:TiXmlHandle
+TiXmlHandle	./src/xml/dom/tinyxml.h	/^class TiXmlHandle$/;"	c
+TiXmlNode	./src/xml/dom/tinyxml.cpp	/^TiXmlNode::TiXmlNode( NodeType _type ) : TiXmlBase()$/;"	f	class:TiXmlNode
+TiXmlNode	./src/xml/dom/tinyxml.h	/^class TiXmlNode : public TiXmlBase$/;"	c
+TiXmlOutStream	./src/xml/dom/tinystr.h	/^class TiXmlOutStream : public TiXmlString$/;"	c
+TiXmlParsingData	./src/xml/dom/tinyxmlparser.cpp	/^	TiXmlParsingData( const char* start, int _tabsize, int row, int col )$/;"	f	class:TiXmlParsingData	file:
+TiXmlParsingData	./src/xml/dom/tinyxmlparser.cpp	/^class TiXmlParsingData$/;"	c	file:
+TiXmlPrinter	./src/xml/dom/tinyxml.h	/^	TiXmlPrinter() : depth( 0 ), simpleTextPrint( false ),$/;"	f	class:TiXmlPrinter
+TiXmlPrinter	./src/xml/dom/tinyxml.h	/^class TiXmlPrinter : public TiXmlVisitor$/;"	c
+TiXmlString	./src/xml/dom/tinystr.h	/^	TIXML_EXPLICIT TiXmlString ( const char * copy) : rep_(0)$/;"	f	class:TiXmlString
+TiXmlString	./src/xml/dom/tinystr.h	/^	TIXML_EXPLICIT TiXmlString ( const char * str, size_type len) : rep_(0)$/;"	f	class:TiXmlString
+TiXmlString	./src/xml/dom/tinystr.h	/^	TiXmlString ( const TiXmlString & copy) : rep_(0)$/;"	f	class:TiXmlString
+TiXmlString	./src/xml/dom/tinystr.h	/^	TiXmlString () : rep_(&nullrep_)$/;"	f	class:TiXmlString
+TiXmlString	./src/xml/dom/tinystr.h	/^class TiXmlString$/;"	c
+TiXmlText	./src/xml/dom/tinyxml.h	/^	TiXmlText (const char * initValue ) : TiXmlNode (TiXmlNode::TEXT)$/;"	f	class:TiXmlText
+TiXmlText	./src/xml/dom/tinyxml.h	/^	TiXmlText( const TiXmlText& copy ) : TiXmlNode( TiXmlNode::TEXT )	{ copy.CopyTo( this ); }$/;"	f	class:TiXmlText
+TiXmlText	./src/xml/dom/tinyxml.h	/^	TiXmlText( const std::string& initValue ) : TiXmlNode (TiXmlNode::TEXT)$/;"	f	class:TiXmlText
+TiXmlText	./src/xml/dom/tinyxml.h	/^class TiXmlText : public TiXmlNode$/;"	c
+TiXmlUnknown	./src/xml/dom/tinyxml.h	/^	TiXmlUnknown( const TiXmlUnknown& copy ) : TiXmlNode( TiXmlNode::UNKNOWN )		{ copy.CopyTo( this ); }$/;"	f	class:TiXmlUnknown
+TiXmlUnknown	./src/xml/dom/tinyxml.h	/^	TiXmlUnknown() : TiXmlNode( TiXmlNode::UNKNOWN )	{}$/;"	f	class:TiXmlUnknown
+TiXmlUnknown	./src/xml/dom/tinyxml.h	/^class TiXmlUnknown : public TiXmlNode$/;"	c
+TiXmlVisitor	./src/xml/dom/tinyxml.h	/^class TiXmlVisitor$/;"	c
+TlsSet	./vld-1.9h/src/vldint.h	/^typedef Set<tls_t*> TlsSet;$/;"	t
+ToComment	./src/xml/dom/tinyxml.h	/^	virtual TiXmlComment*           ToComment()     { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToComment	./src/xml/dom/tinyxml.h	/^	virtual TiXmlComment*  ToComment() { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlComment
+ToComment	./src/xml/dom/tinyxml.h	/^	virtual const TiXmlComment*     ToComment()     const { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToComment	./src/xml/dom/tinyxml.h	/^	virtual const TiXmlComment*  ToComment() const { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlComment
+ToDeclaration	./src/xml/dom/tinyxml.h	/^	virtual TiXmlDeclaration*       ToDeclaration()       { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlDeclaration
+ToDeclaration	./src/xml/dom/tinyxml.h	/^	virtual TiXmlDeclaration*       ToDeclaration() { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToDeclaration	./src/xml/dom/tinyxml.h	/^	virtual const TiXmlDeclaration* ToDeclaration() const { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToDeclaration	./src/xml/dom/tinyxml.h	/^	virtual const TiXmlDeclaration* ToDeclaration() const { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlDeclaration
+ToDocument	./src/xml/dom/tinyxml.h	/^	virtual TiXmlDocument*          ToDocument()          { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlDocument
+ToDocument	./src/xml/dom/tinyxml.h	/^	virtual TiXmlDocument*          ToDocument()    { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToDocument	./src/xml/dom/tinyxml.h	/^	virtual const TiXmlDocument*    ToDocument()    const { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToDocument	./src/xml/dom/tinyxml.h	/^	virtual const TiXmlDocument*    ToDocument()    const { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlDocument
+ToElement	./src/xml/dom/tinyxml.h	/^	TiXmlElement* ToElement() const		{ return ( ( node && node->ToElement() ) ? node->ToElement() : 0 ); }$/;"	f	class:TiXmlHandle
+ToElement	./src/xml/dom/tinyxml.h	/^	virtual TiXmlElement*           ToElement()	          { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlElement
+ToElement	./src/xml/dom/tinyxml.h	/^	virtual TiXmlElement*           ToElement()	    { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToElement	./src/xml/dom/tinyxml.h	/^	virtual const TiXmlElement*     ToElement()     const { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToElement	./src/xml/dom/tinyxml.h	/^	virtual const TiXmlElement*     ToElement()     const { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlElement
+ToLower	./src/xml/dom/tinyxml.h	/^	inline static int ToLower( int v, TiXmlEncoding encoding )$/;"	f	class:TiXmlBase
+ToNode	./src/xml/dom/tinyxml.h	/^	TiXmlNode* ToNode() const			{ return node; } $/;"	f	class:TiXmlHandle
+ToText	./src/xml/dom/tinyxml.h	/^	TiXmlText* ToText() const			{ return ( ( node && node->ToText() ) ? node->ToText() : 0 ); }$/;"	f	class:TiXmlHandle
+ToText	./src/xml/dom/tinyxml.h	/^	virtual TiXmlText*	            ToText()        { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToText	./src/xml/dom/tinyxml.h	/^	virtual TiXmlText*       ToText()       { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlText
+ToText	./src/xml/dom/tinyxml.h	/^	virtual const TiXmlText*        ToText()        const { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToText	./src/xml/dom/tinyxml.h	/^	virtual const TiXmlText* ToText() const { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlText
+ToUnknown	./src/xml/dom/tinyxml.h	/^	TiXmlUnknown* ToUnknown() const		{ return ( ( node && node->ToUnknown() ) ? node->ToUnknown() : 0 ); }$/;"	f	class:TiXmlHandle
+ToUnknown	./src/xml/dom/tinyxml.h	/^	virtual TiXmlUnknown*           ToUnknown()	    { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToUnknown	./src/xml/dom/tinyxml.h	/^	virtual TiXmlUnknown*           ToUnknown()	    { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlUnknown
+ToUnknown	./src/xml/dom/tinyxml.h	/^	virtual const TiXmlUnknown*     ToUnknown()     const { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToUnknown	./src/xml/dom/tinyxml.h	/^	virtual const TiXmlUnknown*     ToUnknown()     const { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlUnknown
+Tree	./vld-1.9h/src/tree.h	/^    Tree ()$/;"	f	class:Tree
+Tree	./vld-1.9h/src/tree.h	/^    Tree (const Tree& source)$/;"	f	class:Tree
+Tree	./vld-1.9h/src/tree.h	/^class Tree$/;"	c
+Type	./src/xml/dom/tinyxml.h	/^	int Type() const	{ return type; }$/;"	f	class:TiXmlNode
+UNKNOWN	./src/xml/dom/tinyxml.h	/^		UNKNOWN,$/;"	e	enum:TiXmlNode::NodeType
+UTF8_To_string	./src/strFunc.cpp	/^std::string UTF8_To_string(const std::string & str) $/;"	f
+UTF8_To_string_Ex	./src/strFunc.cpp	/^std::string UTF8_To_string_Ex(const std::string & str) $/;"	f
+Unknown	./src/xml/dom/tinyxml.h	/^	TiXmlUnknown* Unknown() const	{ return ToUnknown(); }$/;"	f	class:TiXmlHandle
+VLDBLOCKDATA	./vld-1.9h/src/vldheap.h	82;"	d
+VLDBLOCKHEADER	./vld-1.9h/src/vldheap.h	81;"	d
+VLDBUILD	./vld-1.9h/src/callstack.cpp	31;"	d	file:
+VLDBUILD	./vld-1.9h/src/crtmfcpatch.cpp	24;"	d	file:
+VLDBUILD	./vld-1.9h/src/ntapi.cpp	24;"	d	file:
+VLDBUILD	./vld-1.9h/src/utility.cpp	32;"	d	file:
+VLDBUILD	./vld-1.9h/src/vld.cpp	36;"	d	file:
+VLDBUILD	./vld-1.9h/src/vldapi.cpp	24;"	d	file:
+VLDBUILD	./vld-1.9h/src/vldheap.cpp	25;"	d	file:
+VLDDisable	./vld-1.9h/include/vld.h	95;"	d
+VLDDisable	./vld-1.9h/src/vld.h	95;"	d
+VLDDisable	./vld-1.9h/src/vldapi.cpp	/^extern "C" __declspec(dllexport) void VLDDisable ()$/;"	f
+VLDEnable	./vld-1.9h/include/vld.h	94;"	d
+VLDEnable	./vld-1.9h/src/vld.h	94;"	d
+VLDEnable	./vld-1.9h/src/vldapi.cpp	/^extern "C" __declspec(dllexport) void VLDEnable ()$/;"	f
+VLDREGKEYPRODUCT	./vld-1.9h/src/vldint.h	43;"	d
+VLDVERSION	./vld-1.9h/src/vldint.h	44;"	d
+VLD_DEFAULT_MAX_DATA_DUMP	./vld-1.9h/src/vldint.h	289;"	d
+VLD_DEFAULT_MAX_TRACE_FRAMES	./vld-1.9h/src/vldint.h	290;"	d
+VLD_DEFAULT_REPORT_FILE_NAME	./vld-1.9h/src/vldint.h	291;"	d
+VLD_HEAP_CRT	./vld-1.9h/src/vldint.h	84;"	d
+VLD_MODULE_EXCLUDED	./vld-1.9h/src/vldint.h	107;"	d
+VLD_MODULE_SYMBOLSLOADED	./vld-1.9h/src/vldint.h	108;"	d
+VLD_OPT_AGGREGATE_DUPLICATES	./vld-1.9h/src/vldint.h	257;"	d
+VLD_OPT_MODULE_LIST_INCLUDE	./vld-1.9h/src/vldint.h	258;"	d
+VLD_OPT_REPORT_TO_DEBUGGER	./vld-1.9h/src/vldint.h	259;"	d
+VLD_OPT_REPORT_TO_FILE	./vld-1.9h/src/vldint.h	260;"	d
+VLD_OPT_SAFE_STACK_WALK	./vld-1.9h/src/vldint.h	261;"	d
+VLD_OPT_SELF_TEST	./vld-1.9h/src/vldint.h	262;"	d
+VLD_OPT_SLOW_DEBUGGER_DUMP	./vld-1.9h/src/vldint.h	263;"	d
+VLD_OPT_START_DISABLED	./vld-1.9h/src/vldint.h	264;"	d
+VLD_OPT_TRACE_INTERNAL_FRAMES	./vld-1.9h/src/vldint.h	265;"	d
+VLD_OPT_UNICODE_REPORT	./vld-1.9h/src/vldint.h	266;"	d
+VLD_OPT_VLDOFF	./vld-1.9h/src/vldint.h	267;"	d
+VLD_STATUS_DBGHELPLINKED	./vld-1.9h/src/vldint.h	274;"	d
+VLD_STATUS_FORCE_REPORT_TO_FILE	./vld-1.9h/src/vldint.h	277;"	d
+VLD_STATUS_INSTALLED	./vld-1.9h/src/vldint.h	275;"	d
+VLD_STATUS_NEVER_ENABLED	./vld-1.9h/src/vldint.h	276;"	d
+VLD_TLS_CRTALLOC	./vld-1.9h/src/vldint.h	123;"	d
+VLD_TLS_DISABLED	./vld-1.9h/src/vldint.h	124;"	d
+VLD_TLS_ENABLED	./vld-1.9h/src/vldint.h	125;"	d
+Value	./src/xml/dom/tinyxml.h	/^	const char *Value() const { return value.c_str (); }$/;"	f	class:TiXmlNode
+Value	./src/xml/dom/tinyxml.h	/^	const char*		Value() const		{ return value.c_str(); }		\/\/\/< Return the value of this attribute.$/;"	f	class:TiXmlAttribute
+ValueStr	./src/xml/dom/tinyxml.h	/^	const std::string& ValueStr() const	{ return value; }				\/\/\/< Return the value of this attribute.$/;"	f	class:TiXmlAttribute
+ValueStr	./src/xml/dom/tinyxml.h	/^	const std::string& ValueStr() const { return value; }$/;"	f	class:TiXmlNode
+ValueTStr	./src/xml/dom/tinyxml.h	/^	const TIXML_STRING& ValueTStr() const { return value; }$/;"	f	class:TiXmlNode
+Version	./src/xml/dom/tinyxml.h	/^	const char *Version() const			{ return version.c_str (); }$/;"	f	class:TiXmlDeclaration
+Visit	./src/xml/dom/tinyxml.cpp	/^bool TiXmlPrinter::Visit( const TiXmlComment& comment )$/;"	f	class:TiXmlPrinter
+Visit	./src/xml/dom/tinyxml.cpp	/^bool TiXmlPrinter::Visit( const TiXmlDeclaration& declaration )$/;"	f	class:TiXmlPrinter
+Visit	./src/xml/dom/tinyxml.cpp	/^bool TiXmlPrinter::Visit( const TiXmlText& text )$/;"	f	class:TiXmlPrinter
+Visit	./src/xml/dom/tinyxml.cpp	/^bool TiXmlPrinter::Visit( const TiXmlUnknown& unknown )$/;"	f	class:TiXmlPrinter
+Visit	./src/xml/dom/tinyxml.h	/^	virtual bool Visit( const TiXmlComment& \/*comment*\/ )			{ return true; }$/;"	f	class:TiXmlVisitor
+Visit	./src/xml/dom/tinyxml.h	/^	virtual bool Visit( const TiXmlDeclaration& \/*declaration*\/ )	{ return true; }$/;"	f	class:TiXmlVisitor
+Visit	./src/xml/dom/tinyxml.h	/^	virtual bool Visit( const TiXmlText& \/*text*\/ )					{ return true; }$/;"	f	class:TiXmlVisitor
+Visit	./src/xml/dom/tinyxml.h	/^	virtual bool Visit( const TiXmlUnknown& \/*unknown*\/ )			{ return true; }$/;"	f	class:TiXmlVisitor
+VisitEnter	./src/xml/dom/tinyxml.cpp	/^bool TiXmlPrinter::VisitEnter( const TiXmlDocument& )$/;"	f	class:TiXmlPrinter
+VisitEnter	./src/xml/dom/tinyxml.cpp	/^bool TiXmlPrinter::VisitEnter( const TiXmlElement& element, const TiXmlAttribute* firstAttribute )$/;"	f	class:TiXmlPrinter
+VisitEnter	./src/xml/dom/tinyxml.h	/^	virtual bool VisitEnter( const TiXmlDocument& \/*doc*\/ )			{ return true; }$/;"	f	class:TiXmlVisitor
+VisitEnter	./src/xml/dom/tinyxml.h	/^	virtual bool VisitEnter( const TiXmlElement& \/*element*\/, const TiXmlAttribute* \/*firstAttribute*\/ )	{ return true; }$/;"	f	class:TiXmlVisitor
+VisitExit	./src/xml/dom/tinyxml.cpp	/^bool TiXmlPrinter::VisitExit( const TiXmlDocument& )$/;"	f	class:TiXmlPrinter
+VisitExit	./src/xml/dom/tinyxml.cpp	/^bool TiXmlPrinter::VisitExit( const TiXmlElement& element )$/;"	f	class:TiXmlPrinter
+VisitExit	./src/xml/dom/tinyxml.h	/^	virtual bool VisitExit( const TiXmlDocument& \/*doc*\/ )			{ return true; }$/;"	f	class:TiXmlVisitor
+VisitExit	./src/xml/dom/tinyxml.h	/^	virtual bool VisitExit( const TiXmlElement& \/*element*\/ )		{ return true; }$/;"	f	class:TiXmlVisitor
+VisualLeakDetector	./vld-1.9h/src/vld.cpp	/^VisualLeakDetector::VisualLeakDetector ()$/;"	f	class:VisualLeakDetector
+VisualLeakDetector	./vld-1.9h/src/vldint.h	/^class VisualLeakDetector : public IMalloc$/;"	c
+X86X64ARCHITECTURE	./vld-1.9h/src/utility.h	46;"	d
+X86X64ARCHITECTURE	./vld-1.9h/src/utility.h	53;"	d
+_APS_NEXT_COMMAND_VALUE	./vld-1.9h/src/resource.h	10;"	d
+_APS_NEXT_CONTROL_VALUE	./vld-1.9h/src/resource.h	11;"	d
+_APS_NEXT_RESOURCE_VALUE	./vld-1.9h/src/resource.h	9;"	d
+_APS_NEXT_SYMED_VALUE	./vld-1.9h/src/resource.h	12;"	d
+_CoGetMalloc	./vld-1.9h/src/vld.cpp	/^HRESULT VisualLeakDetector::_CoGetMalloc (DWORD context, LPMALLOC *imalloc)$/;"	f	class:VisualLeakDetector
+_CoTaskMemAlloc	./vld-1.9h/src/vld.cpp	/^LPVOID VisualLeakDetector::_CoTaskMemAlloc (ULONG size)$/;"	f	class:VisualLeakDetector
+_CoTaskMemRealloc	./vld-1.9h/src/vld.cpp	/^LPVOID VisualLeakDetector::_CoTaskMemRealloc (LPVOID mem, ULONG size)$/;"	f	class:VisualLeakDetector
+_GetProcAddress	./vld-1.9h/src/vld.cpp	/^FARPROC VisualLeakDetector::_GetProcAddress (HMODULE module, LPCSTR procname)$/;"	f	class:VisualLeakDetector
+_HeapCreate	./vld-1.9h/src/vld.cpp	/^HANDLE VisualLeakDetector::_HeapCreate (DWORD options, SIZE_T initsize, SIZE_T maxsize)$/;"	f	class:VisualLeakDetector
+_HeapDestroy	./vld-1.9h/src/vld.cpp	/^BOOL VisualLeakDetector::_HeapDestroy (HANDLE heap)$/;"	f	class:VisualLeakDetector
+_LdrLoadDll	./vld-1.9h/src/vld.cpp	/^NTSTATUS VisualLeakDetector::_LdrLoadDll (LPWSTR searchpath, PDWORD flags, unicodestring_t *modulename,$/;"	f	class:VisualLeakDetector
+_RtlAllocateHeap	./vld-1.9h/src/vld.cpp	/^LPVOID VisualLeakDetector::_RtlAllocateHeap (HANDLE heap, DWORD flags, SIZE_T size)$/;"	f	class:VisualLeakDetector
+_RtlFreeHeap	./vld-1.9h/src/vld.cpp	/^BOOL VisualLeakDetector::_RtlFreeHeap (HANDLE heap, DWORD flags, LPVOID mem)$/;"	f	class:VisualLeakDetector
+_RtlReAllocateHeap	./vld-1.9h/src/vld.cpp	/^LPVOID VisualLeakDetector::_RtlReAllocateHeap (HANDLE heap, DWORD flags, LPVOID mem, SIZE_T size)$/;"	f	class:VisualLeakDetector
+__STRFUNC_H	./src/strFunc.h	3;"	d
+__calloc_dbg	./vld-1.9h/src/vld.cpp	/^void* VisualLeakDetector::__calloc_dbg (_calloc_dbg_t  p_calloc_dbg,$/;"	f	class:VisualLeakDetector
+__malloc_dbg	./vld-1.9h/src/vld.cpp	/^void* VisualLeakDetector::__malloc_dbg (_malloc_dbg_t  p_malloc_dbg,$/;"	f	class:VisualLeakDetector
+__out_xcount	./vld-1.9h/src/callstack.cpp	27;"	d	file:
+__out_xcount	./vld-1.9h/src/utility.cpp	28;"	d	file:
+__out_xcount	./vld-1.9h/src/vld.cpp	32;"	d	file:
+__realloc_dbg	./vld-1.9h/src/vld.cpp	/^void* VisualLeakDetector::__realloc_dbg (_realloc_dbg_t  p_realloc_dbg,$/;"	f	class:VisualLeakDetector
+_calloc	./vld-1.9h/src/vld.cpp	/^void* VisualLeakDetector::_calloc (calloc_t pcalloc,$/;"	f	class:VisualLeakDetector
+_calloc_dbg_t	./vld-1.9h/src/vldint.h	/^typedef void* (__cdecl *_calloc_dbg_t) (size_t, size_t, int, const char*, int);$/;"	t
+_malloc	./vld-1.9h/src/vld.cpp	/^void *VisualLeakDetector::_malloc (malloc_t pmalloc, SIZE_T fp, size_t size)$/;"	f	class:VisualLeakDetector
+_malloc_dbg_t	./vld-1.9h/src/vldint.h	/^typedef void* (__cdecl *_malloc_dbg_t) (size_t, int, const char *, int);$/;"	t
+_new	./vld-1.9h/src/vld.cpp	/^void* VisualLeakDetector::_new (new_t        pnew,$/;"	f	class:VisualLeakDetector
+_realloc	./vld-1.9h/src/vld.cpp	/^void* VisualLeakDetector::_realloc (realloc_t  prealloc,$/;"	f	class:VisualLeakDetector
+_realloc_dbg_t	./vld-1.9h/src/vldint.h	/^typedef void* (__cdecl *_realloc_dbg_t) (void *, size_t, int, const char *, int);$/;"	t
+_rotateleft	./vld-1.9h/src/tree.h	/^    VOID _rotateleft (typename Tree::node_t *parent)$/;"	f	class:Tree
+_rotateright	./vld-1.9h/src/tree.h	/^    VOID _rotateright (typename Tree::node_t *parent)$/;"	f	class:Tree
+addloadedmodule	./vld-1.9h/src/vld.cpp	/^BOOL VisualLeakDetector::addloadedmodule (PCWSTR modulepath, DWORD64 modulebase, ULONG modulesize, PVOID context)$/;"	f	class:VisualLeakDetector
+addrfp	./vld-1.9h/src/vldint.h	/^    SIZE_T addrfp;           \/\/ Frame pointer at the first call that entered VLD's code for the current allocation.$/;"	m	struct:tls_s
+addrhigh	./vld-1.9h/src/vldint.h	/^    SIZE_T addrhigh;                 \/\/ Highest address within the module's virtual address space (i.e. base + size).$/;"	m	struct:moduleinfo_s
+addrlow	./vld-1.9h/src/vldint.h	/^    SIZE_T addrlow;                  \/\/ Lowest address within the module's virtual address space (i.e. base address).$/;"	m	struct:moduleinfo_s
+append	./src/xml/dom/tinystr.cpp	/^TiXmlString& TiXmlString::append(const char* str, size_type len)$/;"	f	class:TiXmlString
+ascii	./vld-1.9h/src/utility.h	/^    ascii,$/;"	e	enum:encoding_e
+assign	./src/xml/dom/tinystr.cpp	/^TiXmlString& TiXmlString::assign(const char* str, size_type len)$/;"	f	class:TiXmlString
+at	./src/xml/dom/tinystr.h	/^	const char& at (size_type index) const$/;"	f	class:TiXmlString
+attachtoloadedmodules	./vld-1.9h/src/vld.cpp	/^VOID VisualLeakDetector::attachtoloadedmodules (ModuleSet *newmodules)$/;"	f	class:VisualLeakDetector
+attributeSet	./src/xml/dom/tinyxml.h	/^	TiXmlAttributeSet attributeSet;$/;"	m	class:TiXmlElement
+begin	./vld-1.9h/src/map.h	/^    Iterator begin () const$/;"	f	class:Map
+begin	./vld-1.9h/src/set.h	/^    Iterator begin () const$/;"	f	class:Set
+begin	./vld-1.9h/src/tree.h	/^    typename Tree::node_t* begin () const$/;"	f	class:Tree
+black	./vld-1.9h/src/tree.h	/^        black$/;"	e	enum:Tree::color_e
+blockinfo_s	./vld-1.9h/src/vldint.h	/^typedef struct blockinfo_s {$/;"	s
+blockinfo_t	./vld-1.9h/src/vldint.h	/^} blockinfo_t;$/;"	t	typeref:struct:blockinfo_s
+blockmap	./vld-1.9h/src/vldint.h	/^    BlockMap blockmap;   \/\/ Map of all blocks allocated from this heap.$/;"	m	struct:heapinfo_s
+buffer	./src/xml/dom/tinyxml.h	/^	TIXML_STRING buffer;$/;"	m	class:TiXmlPrinter
+buffer	./vld-1.9h/src/ntapi.h	/^    PWSTR  buffer;    \/\/ The buffer containing the string.$/;"	m	struct:unicodestring_s
+buildsymbolsearchpath	./vld-1.9h/src/vld.cpp	/^LPWSTR VisualLeakDetector::buildsymbolsearchpath ()$/;"	f	class:VisualLeakDetector
+c_str	./src/xml/dom/tinystr.h	/^	const char * c_str () const { return rep_->str; }$/;"	f	class:TiXmlString
+calloc_t	./vld-1.9h/src/vldint.h	/^typedef void* (__cdecl *calloc_t) (size_t, size_t);$/;"	t
+callstack	./vld-1.9h/src/vldint.h	/^    CallStack *callstack;$/;"	m	struct:blockinfo_s
+capacity	./src/xml/dom/tinystr.h	/^		size_type size, capacity;$/;"	m	struct:TiXmlString::Rep
+capacity	./src/xml/dom/tinystr.h	/^	size_type capacity () const { return rep_->capacity; }$/;"	f	class:TiXmlString
+cdata	./src/xml/dom/tinyxml.h	/^	bool cdata;			\/\/ true if this should be input and output as a CDATA style text element$/;"	m	class:TiXmlText
+chr	./src/xml/dom/tinyxml.h	/^		char		    chr;$/;"	m	struct:TiXmlBase::Entity
+chunk_s	./vld-1.9h/src/callstack.h	/^    typedef struct chunk_s {$/;"	s	class:CallStack
+chunk_s	./vld-1.9h/src/tree.h	/^    typedef struct chunk_s {$/;"	s	class:Tree
+chunk_t	./vld-1.9h/src/callstack.h	/^    } chunk_t;$/;"	t	class:CallStack	typeref:struct:CallStack::chunk_s
+chunk_t	./vld-1.9h/src/tree.h	/^    } chunk_t;$/;"	t	class:Tree	typeref:struct:Tree::chunk_s
+clear	./src/xml/dom/tinystr.h	/^	void clear ()$/;"	f	class:TiXmlString
+clear	./vld-1.9h/src/callstack.cpp	/^VOID CallStack::clear ()$/;"	f	class:CallStack
+col	./src/xml/dom/tinyxml.h	/^	int col;	\/\/ 0 based.$/;"	m	struct:TiXmlCursor
+color	./vld-1.9h/src/tree.h	/^        color_e            color;  \/\/ The node's color.$/;"	m	struct:Tree::node_s
+color_e	./vld-1.9h/src/tree.h	/^    enum color_e {$/;"	g	class:Tree
+condenseWhiteSpace	./src/xml/dom/tinyxml.cpp	/^bool TiXmlBase::condenseWhiteSpace = true;$/;"	m	class:TiXmlBase	file:
+condenseWhiteSpace	./src/xml/dom/tinyxml.h	/^	static bool condenseWhiteSpace;$/;"	m	class:TiXmlBase
+configure	./vld-1.9h/src/vld.cpp	/^VOID VisualLeakDetector::configure ()$/;"	f	class:VisualLeakDetector
+crt80d__calloc_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt80d__calloc_dbg (size_t num, size_t size, int type, char const *file, int line)$/;"	f
+crt80d__malloc_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt80d__malloc_dbg (size_t size, int type, char const *file, int line)$/;"	f
+crt80d__realloc_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt80d__realloc_dbg (void *mem, size_t size, int type, char const *file, int line)$/;"	f
+crt80d__scalar_new_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt80d__scalar_new_dbg (unsigned int size, int type, char const *file, int line)$/;"	f
+crt80d__vector_new_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt80d__vector_new_dbg (unsigned int size, int type, char const *file, int line)$/;"	f
+crt80d_calloc	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt80d_calloc (size_t num, size_t size)$/;"	f
+crt80d_malloc	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt80d_malloc (size_t size)$/;"	f
+crt80d_realloc	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt80d_realloc (void *mem, size_t size)$/;"	f
+crt80d_scalar_new	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt80d_scalar_new (unsigned int size)$/;"	f
+crt80d_vector_new	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt80d_vector_new (unsigned int size)$/;"	f
+crt90d__calloc_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt90d__calloc_dbg (size_t num, size_t size, int type, char const *file, int line)$/;"	f
+crt90d__malloc_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt90d__malloc_dbg (size_t size, int type, char const *file, int line)$/;"	f
+crt90d__realloc_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt90d__realloc_dbg (void *mem, size_t size, int type, char const *file, int line)$/;"	f
+crt90d__scalar_new_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt90d__scalar_new_dbg (unsigned int size, int type, char const *file, int line)$/;"	f
+crt90d__vector_new_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt90d__vector_new_dbg (unsigned int size, int type, char const *file, int line)$/;"	f
+crt90d_calloc	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt90d_calloc (size_t num, size_t size)$/;"	f
+crt90d_malloc	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt90d_malloc (size_t size)$/;"	f
+crt90d_realloc	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt90d_realloc (void *mem, size_t size)$/;"	f
+crt90d_scalar_new	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt90d_scalar_new (unsigned int size)$/;"	f
+crt90d_vector_new	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crt90d_vector_new (unsigned int size)$/;"	f
+crtd__calloc_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crtd__calloc_dbg (size_t num, size_t size, int type, char const *file, int line)$/;"	f
+crtd__malloc_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crtd__malloc_dbg (size_t size, int type, char const *file, int line)$/;"	f
+crtd__realloc_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crtd__realloc_dbg (void *mem, size_t size, int type, char const *file, int line)$/;"	f
+crtd__scalar_new_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crtd__scalar_new_dbg (unsigned int size, int type, char const *file, int line)$/;"	f
+crtd__vector_new_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crtd__vector_new_dbg (unsigned int size, int type, char const *file, int line)$/;"	f
+crtd_calloc	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crtd_calloc (size_t num, size_t size)$/;"	f
+crtd_malloc	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crtd_malloc (size_t size)$/;"	f
+crtd_realloc	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crtd_realloc (void *mem, size_t size)$/;"	f
+crtd_scalar_new	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crtd_scalar_new (unsigned int size)$/;"	f
+crtd_vector_new	./vld-1.9h/src/crtmfcpatch.cpp	/^void* crtd_vector_new (unsigned int size)$/;"	f
+crtdbgblockheader_s	./vld-1.9h/src/vldheap.h	/^typedef struct crtdbgblockheader_s$/;"	s
+crtdbgblockheader_t	./vld-1.9h/src/vldheap.h	/^} crtdbgblockheader_t;$/;"	t	typeref:struct:crtdbgblockheader_s
+currentprocess	./vld-1.9h/src/vld.cpp	/^HANDLE           currentprocess; \/\/ Pseudo-handle for the current process.$/;"	v
+currentthread	./vld-1.9h/src/vld.cpp	/^HANDLE           currentthread;  \/\/ Pseudo-handle for the current thread.$/;"	v
+cursor	./src/xml/dom/tinyxmlparser.cpp	/^	TiXmlCursor		cursor;$/;"	m	class:TiXmlParsingData	file:
+data	./src/xml/dom/tinystr.h	/^	const char * data () const { return rep_->str; }$/;"	f	class:TiXmlString
+depth	./src/xml/dom/tinyxml.h	/^	int depth;$/;"	m	class:TiXmlPrinter
+detachfrommodule	./vld-1.9h/src/vld.cpp	/^BOOL VisualLeakDetector::detachfrommodule (PCWSTR \/*modulepath*\/, DWORD64 modulebase, ULONG \/*modulesize*\/,$/;"	f	class:VisualLeakDetector
+document	./src/xml/dom/tinyxml.h	/^	TiXmlDocument*	document;	\/\/ A pointer back to a document, for error reporting.$/;"	m	class:TiXmlAttribute
+dump	./vld-1.9h/src/callstack.cpp	/^VOID CallStack::dump (BOOL showinternalframes) const$/;"	f	class:CallStack
+dumpmemorya	./vld-1.9h/src/utility.cpp	/^VOID dumpmemorya (LPCVOID address, SIZE_T size)$/;"	f
+dumpmemoryw	./vld-1.9h/src/utility.cpp	/^VOID dumpmemoryw (LPCVOID address, SIZE_T size)$/;"	f
+empty	./src/xml/dom/tinystr.h	/^	bool empty () const { return rep_->size == 0; }$/;"	f	class:TiXmlString
+enabled	./vld-1.9h/src/vld.cpp	/^BOOL VisualLeakDetector::enabled ()$/;"	f	class:VisualLeakDetector
+encoding	./src/xml/dom/tinyxml.h	/^	TIXML_STRING encoding;$/;"	m	class:TiXmlDeclaration
+encoding_e	./vld-1.9h/src/utility.h	/^enum encoding_e {$/;"	g
+end	./vld-1.9h/src/map.h	/^    Iterator end () const$/;"	f	class:Map
+end	./vld-1.9h/src/set.h	/^    Iterator end () const$/;"	f	class:Set
+entity	./src/xml/dom/tinyxml.h	/^	static Entity entity[ NUM_ENTITY ];$/;"	m	class:TiXmlBase
+entity	./src/xml/dom/tinyxmlparser.cpp	/^TiXmlBase::Entity TiXmlBase::entity[ NUM_ENTITY ] = $/;"	m	class:TiXmlBase	file:
+erase	./vld-1.9h/src/map.h	/^    VOID erase (Iterator& it)$/;"	f	class:Map
+erase	./vld-1.9h/src/map.h	/^    VOID erase (const Tk &key)$/;"	f	class:Map
+erase	./vld-1.9h/src/set.h	/^    VOID erase (Iterator& it)$/;"	f	class:Set
+erase	./vld-1.9h/src/set.h	/^    VOID erase (const Tk &key)$/;"	f	class:Set
+erase	./vld-1.9h/src/tree.h	/^    VOID erase (const T &key)$/;"	f	class:Tree
+erase	./vld-1.9h/src/tree.h	/^    VOID erase (typename Tree::node_t *node)$/;"	f	class:Tree
+eraseduplicates	./vld-1.9h/src/vld.cpp	/^SIZE_T VisualLeakDetector::eraseduplicates (const BlockMap::Iterator &element)$/;"	f	class:VisualLeakDetector
+error	./src/xml/dom/tinyxml.h	/^	bool error;$/;"	m	class:TiXmlDocument
+errorDesc	./src/xml/dom/tinyxml.h	/^	TIXML_STRING errorDesc;$/;"	m	class:TiXmlDocument
+errorId	./src/xml/dom/tinyxml.h	/^	int  errorId;$/;"	m	class:TiXmlDocument
+errorLocation	./src/xml/dom/tinyxml.h	/^	TiXmlCursor errorLocation;$/;"	m	class:TiXmlDocument
+errorString	./src/xml/dom/tinyxml.h	/^	static const char* errorString[ TIXML_ERROR_STRING_COUNT ];$/;"	m	class:TiXmlBase
+errorString	./src/xml/dom/tinyxmlerror.cpp	/^const char* TiXmlBase::errorString[ TIXML_ERROR_STRING_COUNT ] =$/;"	m	class:TiXmlBase	file:
+exportmodulename	./vld-1.9h/src/utility.h	/^    LPCSTR  exportmodulename; \/\/ The name of the module exporting the patched API.$/;"	m	struct:patchentry_s
+file	./vld-1.9h/src/vldheap.h	/^    char                    *file;          \/\/ Source file where this block was allocated.$/;"	m	struct:crtdbgblockheader_s
+file	./vld-1.9h/src/vldheap.h	/^    const char              *file;          \/\/ Name of the file where this block was allocated.$/;"	m	struct:vldblockheader_s
+find	./src/xml/dom/tinystr.h	/^	size_type find (char lookup) const$/;"	f	class:TiXmlString
+find	./src/xml/dom/tinystr.h	/^	size_type find (char tofind, size_type offset) const$/;"	f	class:TiXmlString
+find	./vld-1.9h/src/map.h	/^    Iterator find (const Tk &key) const$/;"	f	class:Map
+find	./vld-1.9h/src/set.h	/^    Iterator find (const Tk &key) const$/;"	f	class:Set
+find	./vld-1.9h/src/tree.h	/^    typename Tree::node_t* find (const T &key) const$/;"	f	class:Tree
+findimport	./vld-1.9h/src/utility.cpp	/^BOOL findimport (HMODULE importmodule, HMODULE exportmodule, LPCSTR exportmodulename, LPCSTR importname)$/;"	f
+findpatch	./vld-1.9h/src/utility.cpp	/^BOOL findpatch (HMODULE importmodule, LPCSTR exportmodulename, LPCVOID replacement)$/;"	f
+finish	./src/xml/dom/tinystr.h	/^	char* finish() const { return rep_->str + rep_->size; }$/;"	f	class:TiXmlString
+first	./vld-1.9h/src/map.h	/^    Tf first;  \/\/ The first value of the pair.$/;"	m	class:Pair
+firstChild	./src/xml/dom/tinyxml.h	/^	TiXmlNode*		firstChild;$/;"	m	class:TiXmlNode
+flags	./vld-1.9h/src/vldint.h	/^    UINT32   flags;      \/\/ Heap status flags:$/;"	m	struct:heapinfo_s
+flags	./vld-1.9h/src/vldint.h	/^    UINT32 flags;                    \/\/ Module flags:$/;"	m	struct:moduleinfo_s
+flags	./vld-1.9h/src/vldint.h	/^    UINT32 flags;            \/\/ Thread-local status flags:$/;"	m	struct:tls_s
+frames	./vld-1.9h/src/callstack.h	/^        SIZE_T          frames [CALLSTACKCHUNKSIZE]; \/\/ Pushed frames (program counter addresses) are stored in this array.$/;"	m	struct:CallStack::chunk_s
+gap	./vld-1.9h/src/vldheap.h	/^    unsigned char            gap [GAPSIZE]; \/\/ No-man's land buffer zone, for buffer overrun\/underrun checking.$/;"	m	struct:crtdbgblockheader_s
+getstacktrace	./vld-1.9h/src/callstack.cpp	/^VOID FastCallStack::getstacktrace (UINT32 maxdepth, SIZE_T *framepointer)$/;"	f	class:FastCallStack
+getstacktrace	./vld-1.9h/src/callstack.cpp	/^VOID SafeCallStack::getstacktrace (UINT32 maxdepth, SIZE_T *framepointer)$/;"	f	class:SafeCallStack
+gettls	./vld-1.9h/src/vld.cpp	/^tls_t* VisualLeakDetector::gettls ()$/;"	f	class:VisualLeakDetector
+heapinfo_s	./vld-1.9h/src/vldint.h	/^typedef struct heapinfo_s {$/;"	s
+heapinfo_t	./vld-1.9h/src/vldint.h	/^} heapinfo_t;$/;"	t	typeref:struct:heapinfo_s
+imagelock	./vld-1.9h/src/vld.cpp	/^CRITICAL_SECTION imagelock;      \/\/ Serializes calls to the Debug Help Library PE image access APIs.$/;"	v
+importname	./vld-1.9h/src/utility.h	/^    LPCSTR  importname;       \/\/ The name (or ordinal) of the imported API being patched.$/;"	m	struct:patchentry_s
+indent	./src/xml/dom/tinyxml.h	/^	TIXML_STRING indent;$/;"	m	class:TiXmlPrinter
+init	./src/xml/dom/tinystr.h	/^	void init(size_type sz) { init(sz, sz); }$/;"	f	class:TiXmlString
+init	./src/xml/dom/tinystr.h	/^	void init(size_type sz, size_type cap)$/;"	f	class:TiXmlString
+insert	./vld-1.9h/src/map.h	/^    Iterator insert (const Tk &key, const Tv &data)$/;"	f	class:Map
+insert	./vld-1.9h/src/set.h	/^    Iterator insert (const Tk &key)$/;"	f	class:Set
+insert	./vld-1.9h/src/tree.h	/^    typename Tree::node_t* insert (const T &key)$/;"	f	class:Tree
+insertreportdelay	./vld-1.9h/src/utility.cpp	/^VOID insertreportdelay ()$/;"	f
+key	./vld-1.9h/src/tree.h	/^        T                  key;    \/\/ The node's value, by which nodes are sorted.$/;"	m	struct:Tree::node_s
+langCode	./src/main.cpp	/^	std::string langCode;$/;"	m	struct:TextNode	file:
+lastChild	./src/xml/dom/tinyxml.h	/^	TiXmlNode*		lastChild;$/;"	m	class:TiXmlNode
+left	./vld-1.9h/src/tree.h	/^            struct node_s *left;   \/\/ For nodes in the tree, the node's left child.$/;"	m	union:Tree::node_s::__anon1	typeref:struct:Tree::node_s::__anon1::node_s
+length	./src/xml/dom/tinystr.h	/^	size_type length () const { return rep_->size; }$/;"	f	class:TiXmlString
+length	./vld-1.9h/src/ntapi.h	/^    USHORT length;    \/\/ Length of the string.$/;"	m	struct:unicodestring_s
+line	./vld-1.9h/src/vldheap.h	/^    int                      line;          \/\/ Line number within the above file where this block was allocated.$/;"	m	struct:vldblockheader_s
+line	./vld-1.9h/src/vldheap.h	/^    int                      line;          \/\/ Line of code, within the above file, where this block was allocated.$/;"	m	struct:crtdbgblockheader_s
+lineBreak	./src/xml/dom/tinyxml.h	/^	TIXML_STRING lineBreak;$/;"	m	class:TiXmlPrinter
+location	./src/xml/dom/tinyxml.h	/^	TiXmlCursor location;$/;"	m	class:TiXmlBase
+m_capacity	./vld-1.9h/src/callstack.h	/^    UINT32              m_capacity; \/\/ Current capacity limit (in frames)$/;"	m	class:CallStack
+m_forcedmodulelist	./vld-1.9h/src/vldint.h	/^    WCHAR                m_forcedmodulelist [MAXMODULELISTLENGTH]; \/\/ List of modules to be forcefully included in leak detection.$/;"	m	class:VisualLeakDetector
+m_freelist	./vld-1.9h/src/tree.h	/^    node_t                   *m_freelist;  \/\/ Pointer to the list of free nodes (reserve storage).$/;"	m	class:Tree
+m_heapmap	./vld-1.9h/src/vldint.h	/^    HeapMap             *m_heapmap;           \/\/ Map of all active heaps in the process.$/;"	m	class:VisualLeakDetector
+m_imalloc	./vld-1.9h/src/vldint.h	/^    IMalloc             *m_imalloc;           \/\/ Pointer to the system implementation of IMalloc.$/;"	m	class:VisualLeakDetector
+m_leaksfound	./vld-1.9h/src/vldint.h	/^    SIZE_T               m_leaksfound;        \/\/ Total number of leaks found.$/;"	m	class:VisualLeakDetector
+m_loadedmodules	./vld-1.9h/src/vldint.h	/^    ModuleSet           *m_loadedmodules;     \/\/ Contains information about all modules loaded in the process.$/;"	m	class:VisualLeakDetector
+m_loaderlock	./vld-1.9h/src/vldint.h	/^    CRITICAL_SECTION     m_loaderlock;        \/\/ Serializes the attachment of newly loaded modules.$/;"	m	class:VisualLeakDetector
+m_lock	./vld-1.9h/src/tree.h	/^    mutable CRITICAL_SECTION  m_lock;      \/\/ Protects the tree's integrity against concurrent accesses.$/;"	m	class:Tree
+m_maplock	./vld-1.9h/src/vldint.h	/^    CRITICAL_SECTION     m_maplock;           \/\/ Serializes access to the heap and block maps.$/;"	m	class:VisualLeakDetector
+m_maxdatadump	./vld-1.9h/src/vldint.h	/^    SIZE_T               m_maxdatadump;       \/\/ Maximum number of user-data bytes to dump for each leaked block.$/;"	m	class:VisualLeakDetector
+m_maxtraceframes	./vld-1.9h/src/vldint.h	/^    UINT32               m_maxtraceframes;    \/\/ Maximum number of frames per stack trace for each leaked block.$/;"	m	class:VisualLeakDetector
+m_moduleslock	./vld-1.9h/src/vldint.h	/^    CRITICAL_SECTION     m_moduleslock;       \/\/ Protects accesses to the "loaded modules" ModuleSet.$/;"	m	class:VisualLeakDetector
+m_nil	./vld-1.9h/src/tree.h	/^    node_t                    m_nil;       \/\/ The tree's nil node. All leaf nodes point to this.$/;"	m	class:Tree
+m_node	./vld-1.9h/src/map.h	/^        typename Tree<Pair<Tk, Tv> >::node_t *m_node; \/\/ Pointer to the node referenced by the Map Iterator.$/;"	m	class:Map::Iterator
+m_node	./vld-1.9h/src/set.h	/^        typename Tree<Tk>::node_t *m_node; \/\/ Pointer to the node referenced by the Set Iterator.$/;"	m	class:Set::Iterator
+m_options	./vld-1.9h/src/vldint.h	/^    UINT32               m_options;           \/\/ Configuration options:$/;"	m	class:VisualLeakDetector
+m_patchtable	./vld-1.9h/src/vld.cpp	/^patchentry_t VisualLeakDetector::m_patchtable [] = {$/;"	m	class:VisualLeakDetector	file:
+m_patchtable	./vld-1.9h/src/vldint.h	/^    static patchentry_t  m_patchtable [];     \/\/ Table of imports patched for attaching VLD to other modules.$/;"	m	class:VisualLeakDetector
+m_reportfile	./vld-1.9h/src/vldint.h	/^    FILE                *m_reportfile;        \/\/ File where the memory leak report may be sent to.$/;"	m	class:VisualLeakDetector
+m_reportfilepath	./vld-1.9h/src/vldint.h	/^    WCHAR                m_reportfilepath [MAX_PATH]; \/\/ Full path and name of file to send memory leak report to.$/;"	m	class:VisualLeakDetector
+m_reserve	./vld-1.9h/src/tree.h	/^    UINT32                    m_reserve;   \/\/ The size (in nodes) of the chunks of reserve storage.$/;"	m	class:Tree
+m_root	./vld-1.9h/src/tree.h	/^    node_t                   *m_root;      \/\/ Pointer to the tree's root node.$/;"	m	class:Tree
+m_selftestfile	./vld-1.9h/src/vldint.h	/^    const char          *m_selftestfile;      \/\/ Filename where the memory leak self-test block is leaked.$/;"	m	class:VisualLeakDetector
+m_selftestline	./vld-1.9h/src/vldint.h	/^    int                  m_selftestline;      \/\/ Line number where the memory leak self-test block is leaked.$/;"	m	class:VisualLeakDetector
+m_size	./vld-1.9h/src/callstack.h	/^    UINT32              m_size;     \/\/ Current size (in frames)$/;"	m	class:CallStack
+m_status	./vld-1.9h/src/callstack.h	/^    UINT32 m_status;                    \/\/ Status flags:$/;"	m	class:CallStack
+m_status	./vld-1.9h/src/vldint.h	/^    UINT32               m_status;            \/\/ Status flags:$/;"	m	class:VisualLeakDetector
+m_store	./vld-1.9h/src/callstack.h	/^    CallStack::chunk_t  m_store;    \/\/ Pointer to the underlying data store (i.e. head of the chunk list)$/;"	m	class:CallStack
+m_store	./vld-1.9h/src/tree.h	/^    chunk_t                  *m_store;     \/\/ Pointer to the start of the chunk list.$/;"	m	class:Tree
+m_storetail	./vld-1.9h/src/tree.h	/^    chunk_t                  *m_storetail; \/\/ Pointer to the end of the chunk list.$/;"	m	class:Tree
+m_tlsindex	./vld-1.9h/src/vldint.h	/^    DWORD                m_tlsindex;          \/\/ Thread-local storage index.$/;"	m	class:VisualLeakDetector
+m_tlslock	./vld-1.9h/src/vldint.h	/^    CRITICAL_SECTION     m_tlslock;           \/\/ Protects accesses to the Set of TLS structures.$/;"	m	class:VisualLeakDetector
+m_tlsset	./vld-1.9h/src/vldint.h	/^    TlsSet              *m_tlsset;            \/\/ Set of all all thread-local storage structres for the process.$/;"	m	class:VisualLeakDetector
+m_topchunk	./vld-1.9h/src/callstack.h	/^    CallStack::chunk_t *m_topchunk; \/\/ Pointer to the chunk at the top of the stack$/;"	m	class:CallStack
+m_topindex	./vld-1.9h/src/callstack.h	/^    UINT32              m_topindex; \/\/ Index, within the top chunk, of the top of the stack$/;"	m	class:CallStack
+m_tree	./vld-1.9h/src/map.h	/^        const Tree<Pair<Tk, Tv> >            *m_tree; \/\/ Pointer to the tree containing the referenced node.$/;"	m	class:Map::Iterator
+m_tree	./vld-1.9h/src/map.h	/^    Tree<Pair<Tk, Tv> > m_tree; \/\/ The key\/value pairs are actually stored in a tree.$/;"	m	class:Map
+m_tree	./vld-1.9h/src/set.h	/^        const Tree<Tk>            *m_tree; \/\/ Pointer to the tree containing the referenced node.$/;"	m	class:Set::Iterator
+m_tree	./vld-1.9h/src/set.h	/^    Tree<Tk> m_tree; \/\/ The keys are actually stored in a tree.$/;"	m	class:Set
+m_vldbase	./vld-1.9h/src/vldint.h	/^    HMODULE              m_vldbase;           \/\/ Visual Leak Detector's own module handle (base address).$/;"	m	class:VisualLeakDetector
+main	./src/main.cpp	/^int main(void)$/;"	f
+malloc_t	./vld-1.9h/src/vldint.h	/^typedef void* (__cdecl *malloc_t) (size_t);$/;"	t
+mapblock	./vld-1.9h/src/vld.cpp	/^VOID VisualLeakDetector::mapblock (HANDLE heap, LPCVOID mem, SIZE_T size, SIZE_T framepointer, BOOL crtalloc)$/;"	f	class:VisualLeakDetector
+mapheap	./vld-1.9h/src/vld.cpp	/^VOID VisualLeakDetector::mapheap (HANDLE heap)$/;"	f	class:VisualLeakDetector
+maxlength	./vld-1.9h/src/ntapi.h	/^    USHORT maxlength; \/\/ Length of the buffer.$/;"	m	struct:unicodestring_s
+mfc42d__scalar_new_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* mfc42d__scalar_new_dbg (unsigned int size, char const *file, int line)$/;"	f
+mfc42d_scalar_new	./vld-1.9h/src/crtmfcpatch.cpp	/^void* mfc42d_scalar_new (unsigned int size)$/;"	f
+mfc80d__scalar_new_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* mfc80d__scalar_new_dbg (unsigned int size, char const *file, int line)$/;"	f
+mfc80d__vector_new_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* mfc80d__vector_new_dbg (unsigned int size, char const *file, int line)$/;"	f
+mfc80d_scalar_new	./vld-1.9h/src/crtmfcpatch.cpp	/^void* mfc80d_scalar_new (unsigned int size)$/;"	f
+mfc80d_vector_new	./vld-1.9h/src/crtmfcpatch.cpp	/^void* mfc80d_vector_new (unsigned int size)$/;"	f
+mfc90d__scalar_new_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* mfc90d__scalar_new_dbg (unsigned int size, char const *file, int line)$/;"	f
+mfc90d__vector_new_dbg	./vld-1.9h/src/crtmfcpatch.cpp	/^void* mfc90d__vector_new_dbg (unsigned int size, char const *file, int line)$/;"	f
+mfc90d_scalar_new	./vld-1.9h/src/crtmfcpatch.cpp	/^void* mfc90d_scalar_new (unsigned int size)$/;"	f
+mfc90d_vector_new	./vld-1.9h/src/crtmfcpatch.cpp	/^void* mfc90d_vector_new (unsigned int size)$/;"	f
+modulebase	./vld-1.9h/src/utility.h	/^    SIZE_T  modulebase;       \/\/ The base address of the exporting module (filled in at runtime when the modules are loaded).$/;"	m	struct:patchentry_s
+moduleinfo_s	./vld-1.9h/src/vldint.h	/^typedef struct moduleinfo_s {$/;"	s
+moduleinfo_t	./vld-1.9h/src/vldint.h	/^} moduleinfo_t;$/;"	t	typeref:struct:moduleinfo_s
+moduleispatched	./vld-1.9h/src/utility.cpp	/^BOOL moduleispatched (HMODULE importmodule, patchentry_t patchtable [], UINT tablesize)$/;"	f
+name	./src/xml/dom/tinyxml.h	/^	TIXML_STRING name;$/;"	m	class:TiXmlAttribute
+name	./vld-1.9h/src/vldint.h	/^    LPCSTR name;                     \/\/ The module's name (e.g. "kernel32.dll").$/;"	m	struct:moduleinfo_s
+new	./vld-1.9h/src/vldheap.cpp	28;"	d	file:
+new	./vld-1.9h/src/vldheap.h	94;"	d
+new_dbg_crt	./vld-1.9h/src/vld.cpp	/^void* VisualLeakDetector::new_dbg_crt (new_dbg_crt_t  pnew_dbg_crt,$/;"	f	class:VisualLeakDetector
+new_dbg_crt_t	./vld-1.9h/src/vldint.h	/^typedef void* (__cdecl *new_dbg_crt_t) (unsigned int, int, const char *, int);$/;"	t
+new_dbg_mfc	./vld-1.9h/src/vld.cpp	/^void* VisualLeakDetector::new_dbg_mfc (new_dbg_mfc_t  pnew_dbg_mfc,$/;"	f	class:VisualLeakDetector
+new_dbg_mfc_t	./vld-1.9h/src/vldint.h	/^typedef void* (__cdecl *new_dbg_mfc_t) (unsigned int, const char *, int);$/;"	t
+new_t	./vld-1.9h/src/vldint.h	/^typedef void* (__cdecl *new_t) (unsigned int);$/;"	t
+next	./src/main.cpp	/^	TextNode* next;$/;"	m	struct:TextNode	file:
+next	./src/xml/dom/tinyxml.h	/^	TiXmlAttribute*	next;$/;"	m	class:TiXmlAttribute
+next	./src/xml/dom/tinyxml.h	/^	TiXmlNode*		next;$/;"	m	class:TiXmlNode
+next	./vld-1.9h/src/callstack.h	/^        struct chunk_s *next;                        \/\/ Pointer to the next chunk in the chunk list.$/;"	m	struct:CallStack::chunk_s	typeref:struct:CallStack::chunk_s::chunk_s
+next	./vld-1.9h/src/tree.h	/^            struct node_s *next;   \/\/ For nodes in the free list, the next node on the free list.$/;"	m	union:Tree::node_s::__anon1	typeref:struct:Tree::node_s::__anon1::node_s
+next	./vld-1.9h/src/tree.h	/^        struct chunk_s *next;  \/\/ Pointer to the next node in the chunk list.$/;"	m	struct:Tree::chunk_s	typeref:struct:Tree::chunk_s::chunk_s
+next	./vld-1.9h/src/tree.h	/^    typename Tree::node_t* next (typename Tree::node_t *node) const$/;"	f	class:Tree
+next	./vld-1.9h/src/vldheap.h	/^    struct crtblockheader_s *next;          \/\/ Pointer to the next block in the list of blocks allocated from the CRT heap.$/;"	m	struct:crtdbgblockheader_s	typeref:struct:crtdbgblockheader_s::crtblockheader_s
+next	./vld-1.9h/src/vldheap.h	/^    struct vldblockheader_s *next;          \/\/ Pointer to the next block in the list of internally allocated blocks.$/;"	m	struct:vldblockheader_s	typeref:struct:vldblockheader_s::vldblockheader_s
+node	./src/xml/dom/tinyxml.h	/^	TiXmlNode* node;$/;"	m	class:TiXmlHandle
+node_s	./vld-1.9h/src/tree.h	/^    typedef struct node_s {$/;"	s	class:Tree
+node_t	./vld-1.9h/src/tree.h	/^    } node_t;$/;"	t	class:Tree	typeref:struct:Tree::node_s
+nodes	./vld-1.9h/src/tree.h	/^        node_t         *nodes; \/\/ Pointer to an array (of variable size) where nodes are stored.$/;"	m	struct:Tree::chunk_s
+npos	./src/xml/dom/tinystr.cpp	/^const TiXmlString::size_type TiXmlString::npos = static_cast< TiXmlString::size_type >(-1);$/;"	m	class:TiXmlString	file:
+npos	./src/xml/dom/tinystr.h	/^	static const size_type npos; \/\/ = -1;$/;"	m	class:TiXmlString
+nullrep_	./src/xml/dom/tinystr.cpp	/^TiXmlString::Rep TiXmlString::nullrep_ = { 0, 0, { '\\0' } };$/;"	m	class:TiXmlString	file:
+nullrep_	./src/xml/dom/tinystr.h	/^	static Rep nullrep_;$/;"	m	class:TiXmlString
+operator !=	./src/xml/dom/tinystr.h	/^inline bool operator != (const TiXmlString & a, const TiXmlString & b) { return !(a == b); }$/;"	f
+operator !=	./src/xml/dom/tinystr.h	/^inline bool operator != (const TiXmlString & a, const char* b) { return !(a == b); }$/;"	f
+operator !=	./src/xml/dom/tinystr.h	/^inline bool operator != (const char* a, const TiXmlString & b) { return !(b == a); }$/;"	f
+operator !=	./vld-1.9h/src/map.h	/^        BOOL operator != (const Iterator &other) const$/;"	f	class:Map::Iterator
+operator !=	./vld-1.9h/src/set.h	/^        BOOL operator != (const Iterator &other) const$/;"	f	class:Set::Iterator
+operator *	./vld-1.9h/src/map.h	/^        const Pair<Tk, Tv>& operator * () const$/;"	f	class:Map::Iterator
+operator *	./vld-1.9h/src/set.h	/^        Tk& operator * ()$/;"	f	class:Set::Muterator
+operator *	./vld-1.9h/src/set.h	/^        const Tk& operator * () const$/;"	f	class:Set::Iterator
+operator +	./src/xml/dom/tinystr.cpp	/^TiXmlString operator + (const TiXmlString & a, const TiXmlString & b)$/;"	f
+operator +	./src/xml/dom/tinystr.cpp	/^TiXmlString operator + (const TiXmlString & a, const char* b)$/;"	f
+operator +	./src/xml/dom/tinystr.cpp	/^TiXmlString operator + (const char* a, const TiXmlString & b)$/;"	f
+operator ++	./vld-1.9h/src/map.h	/^        Iterator operator ++ ()$/;"	f	class:Map::Iterator
+operator ++	./vld-1.9h/src/map.h	/^        Iterator& operator ++ (int)$/;"	f	class:Map::Iterator
+operator ++	./vld-1.9h/src/set.h	/^        Iterator operator ++ ()$/;"	f	class:Set::Iterator
+operator ++	./vld-1.9h/src/set.h	/^        Iterator& operator ++ (int)$/;"	f	class:Set::Iterator
+operator +=	./src/xml/dom/tinystr.h	/^	TiXmlString& operator += (char single)$/;"	f	class:TiXmlString
+operator +=	./src/xml/dom/tinystr.h	/^	TiXmlString& operator += (const TiXmlString & suffix)$/;"	f	class:TiXmlString
+operator +=	./src/xml/dom/tinystr.h	/^	TiXmlString& operator += (const char * suffix)$/;"	f	class:TiXmlString
+operator -	./vld-1.9h/src/map.h	/^        Iterator operator - (SIZE_T num) const$/;"	f	class:Map::Iterator
+operator -	./vld-1.9h/src/set.h	/^        Iterator operator - (SIZE_T num) const$/;"	f	class:Set::Iterator
+operator <	./src/xml/dom/tinystr.h	/^inline bool operator < (const TiXmlString & a, const TiXmlString & b)$/;"	f
+operator <	./src/xml/dom/tinyxml.h	/^	bool operator<( const TiXmlAttribute& rhs )	 const { return name < rhs.name; }$/;"	f	class:TiXmlAttribute
+operator <	./vld-1.9h/src/map.h	/^    BOOL operator < (const Pair &other) const$/;"	f	class:Pair
+operator <	./vld-1.9h/src/vldint.h	/^    BOOL operator < (const struct moduleinfo_s &other) const$/;"	f	struct:moduleinfo_s
+operator <<	./src/xml/dom/tinystr.h	/^	TiXmlOutStream & operator << (const TiXmlString & in)$/;"	f	class:TiXmlOutStream
+operator <<	./src/xml/dom/tinystr.h	/^	TiXmlOutStream & operator << (const char * in)$/;"	f	class:TiXmlOutStream
+operator <<	./src/xml/dom/tinyxml.cpp	/^std::ostream& operator<< (std::ostream & out, const TiXmlNode & base)$/;"	f
+operator <<	./src/xml/dom/tinyxml.cpp	/^std::string& operator<< (std::string& out, const TiXmlNode& base )$/;"	f
+operator <=	./src/xml/dom/tinystr.h	/^inline bool operator <= (const TiXmlString & a, const TiXmlString & b) { return !(b < a); }$/;"	f
+operator =	./src/xml/dom/tinystr.h	/^	TiXmlString& operator = (const TiXmlString & copy)$/;"	f	class:TiXmlString
+operator =	./src/xml/dom/tinystr.h	/^	TiXmlString& operator = (const char * copy)$/;"	f	class:TiXmlString
+operator =	./src/xml/dom/tinyxml.cpp	/^void TiXmlComment::operator=( const TiXmlComment& base )$/;"	f	class:TiXmlComment
+operator =	./src/xml/dom/tinyxml.cpp	/^void TiXmlDeclaration::operator=( const TiXmlDeclaration& copy )$/;"	f	class:TiXmlDeclaration
+operator =	./src/xml/dom/tinyxml.cpp	/^void TiXmlDocument::operator=( const TiXmlDocument& copy )$/;"	f	class:TiXmlDocument
+operator =	./src/xml/dom/tinyxml.cpp	/^void TiXmlElement::operator=( const TiXmlElement& base )$/;"	f	class:TiXmlElement
+operator =	./src/xml/dom/tinyxml.h	/^	TiXmlHandle operator=( const TiXmlHandle& ref ) { this->node = ref.node; return *this; }$/;"	f	class:TiXmlHandle
+operator =	./src/xml/dom/tinyxml.h	/^	void operator=( const TiXmlText& base )							 	{ base.CopyTo( this ); }$/;"	f	class:TiXmlText
+operator =	./src/xml/dom/tinyxml.h	/^	void operator=( const TiXmlUnknown& copy )										{ copy.CopyTo( this ); }$/;"	f	class:TiXmlUnknown
+operator =	./vld-1.9h/src/callstack.cpp	/^CallStack& CallStack::operator = (const CallStack &)$/;"	f	class:CallStack
+operator =	./vld-1.9h/src/set.h	/^        Muterator& operator = (const Iterator& other) {$/;"	f	class:Set::Muterator
+operator =	./vld-1.9h/src/tree.h	/^    Tree<T>& operator = (const Tree<T> &other)$/;"	f	class:Tree
+operator ==	./src/xml/dom/tinystr.h	/^inline bool operator == (const TiXmlString & a, const TiXmlString & b)$/;"	f
+operator ==	./src/xml/dom/tinystr.h	/^inline bool operator == (const TiXmlString & a, const char* b) { return strcmp(a.c_str(), b) == 0; }$/;"	f
+operator ==	./src/xml/dom/tinystr.h	/^inline bool operator == (const char* a, const TiXmlString & b) { return b == a; }$/;"	f
+operator ==	./src/xml/dom/tinyxml.h	/^	bool operator==( const TiXmlAttribute& rhs ) const { return rhs.name == name; }$/;"	f	class:TiXmlAttribute
+operator ==	./vld-1.9h/src/callstack.cpp	/^BOOL CallStack::operator == (const CallStack &other) const$/;"	f	class:CallStack
+operator ==	./vld-1.9h/src/map.h	/^        BOOL operator == (const Iterator &other) const$/;"	f	class:Map::Iterator
+operator ==	./vld-1.9h/src/set.h	/^        BOOL operator == (const Iterator &other) const$/;"	f	class:Set::Iterator
+operator >	./src/xml/dom/tinystr.h	/^inline bool operator >  (const TiXmlString & a, const TiXmlString & b) { return b < a; }$/;"	f
+operator >	./src/xml/dom/tinyxml.h	/^	bool operator>( const TiXmlAttribute& rhs )  const { return name > rhs.name; }$/;"	f	class:TiXmlAttribute
+operator >=	./src/xml/dom/tinystr.h	/^inline bool operator >= (const TiXmlString & a, const TiXmlString & b) { return !(a < b); }$/;"	f
+operator >>	./src/xml/dom/tinyxml.cpp	/^std::istream& operator>> (std::istream & in, TiXmlNode & base)$/;"	f
+operator []	./src/xml/dom/tinystr.h	/^	char& operator [] (size_type index) const$/;"	f	class:TiXmlString
+operator []	./vld-1.9h/src/callstack.cpp	/^SIZE_T CallStack::operator [] (UINT32 index) const$/;"	f	class:CallStack
+operator delete	./vld-1.9h/src/vldheap.cpp	/^void operator delete (void *block)$/;"	f
+operator delete	./vld-1.9h/src/vldheap.cpp	/^void operator delete (void *block, const char *, int)$/;"	f
+operator delete []	./vld-1.9h/src/vldheap.cpp	/^void operator delete [] (void *block)$/;"	f
+operator delete []	./vld-1.9h/src/vldheap.cpp	/^void operator delete [] (void *block, const char *, int)$/;"	f
+operator new	./vld-1.9h/src/vldheap.cpp	/^void* operator new (unsigned int size, const char *file, int line)$/;"	f
+operator new []	./vld-1.9h/src/vldheap.cpp	/^void* operator new [] (unsigned int size, const char *file, int line)$/;"	f
+parent	./src/xml/dom/tinyxml.h	/^	TiXmlNode*		parent;$/;"	m	class:TiXmlNode
+parent	./vld-1.9h/src/tree.h	/^        struct node_s     *parent; \/\/ The node's parent.$/;"	m	struct:Tree::node_s	typeref:struct:Tree::node_s::node_s
+patchentry_s	./vld-1.9h/src/utility.h	/^typedef struct patchentry_s$/;"	s
+patchentry_t	./vld-1.9h/src/utility.h	/^} patchentry_t;$/;"	t	typeref:struct:patchentry_s
+patchimport	./vld-1.9h/src/utility.cpp	/^BOOL patchimport (HMODULE importmodule, HMODULE exportmodule, LPCSTR exportmodulename, LPCSTR importname,$/;"	f
+patchmodule	./vld-1.9h/src/utility.cpp	/^BOOL patchmodule (HMODULE importmodule, patchentry_t patchtable [], UINT tablesize)$/;"	f
+path	./vld-1.9h/src/vldint.h	/^    LPCSTR path;                     \/\/ The fully qualified path from where the module was loaded.$/;"	m	struct:moduleinfo_s
+prev	./src/xml/dom/tinyxml.h	/^	TiXmlAttribute*	prev;$/;"	m	class:TiXmlAttribute
+prev	./src/xml/dom/tinyxml.h	/^	TiXmlNode*		prev;$/;"	m	class:TiXmlNode
+prev	./vld-1.9h/src/tree.h	/^    typename Tree::node_t* prev (typename Tree::node_t *node) const$/;"	f	class:Tree
+prev	./vld-1.9h/src/vldheap.h	/^    struct crtblockheader_s *prev;          \/\/ Pointer to the previous block in the list of blocks allocated from the CRT heap.$/;"	m	struct:crtdbgblockheader_s	typeref:struct:crtdbgblockheader_s::crtblockheader_s
+prev	./vld-1.9h/src/vldheap.h	/^    struct vldblockheader_s *prev;          \/\/ Pointer to the preceding block in the list of internally allocated blocks.$/;"	m	struct:vldblockheader_s	typeref:struct:vldblockheader_s::vldblockheader_s
+processheap	./vld-1.9h/src/vld.cpp	/^HANDLE           processheap;    \/\/ Handle to the process's heap (COM allocations come from here).$/;"	v
+push_back	./vld-1.9h/src/callstack.cpp	/^VOID CallStack::push_back (const SIZE_T programcounter)$/;"	f	class:CallStack
+quit	./src/xml/dom/tinystr.h	/^	void quit()$/;"	f	class:TiXmlString
+realloc_t	./vld-1.9h/src/vldint.h	/^typedef void* (__cdecl *realloc_t) (void *, size_t);$/;"	t
+red	./vld-1.9h/src/tree.h	/^        red,$/;"	e	enum:Tree::color_e
+remapblock	./vld-1.9h/src/vld.cpp	/^VOID VisualLeakDetector::remapblock (HANDLE heap, LPCVOID mem, LPCVOID newmem, SIZE_T size, SIZE_T framepointer,$/;"	f	class:VisualLeakDetector
+rep_	./src/xml/dom/tinystr.h	/^	Rep * rep_;$/;"	m	class:TiXmlString
+replacement	./vld-1.9h/src/utility.h	/^    LPCVOID replacement;      \/\/ Pointer to the function to which the imported API should be patched through to.$/;"	m	struct:patchentry_s
+report	./vld-1.9h/src/utility.cpp	/^VOID report (LPCWSTR format, ...)$/;"	f
+reportconfig	./vld-1.9h/src/vld.cpp	/^VOID VisualLeakDetector::reportconfig ()$/;"	f	class:VisualLeakDetector
+reportdelay	./vld-1.9h/src/utility.cpp	/^static BOOL        reportdelay = FALSE;     \/\/ If TRUE, we sleep for a bit after calling OutputDebugString to give the debugger time to catch up.$/;"	v	file:
+reportencoding	./vld-1.9h/src/utility.cpp	/^static encoding_e  reportencoding = ascii;  \/\/ Output encoding of the memory leak report.$/;"	v	file:
+reportfile	./vld-1.9h/src/utility.cpp	/^static FILE       *reportfile = NULL;       \/\/ Pointer to the file, if any, to send the memory leak report to.$/;"	v	file:
+reportleaks	./vld-1.9h/src/vld.cpp	/^VOID VisualLeakDetector::reportleaks (HANDLE heap)$/;"	f	class:VisualLeakDetector
+reporttodebugger	./vld-1.9h/src/utility.cpp	/^static BOOL        reporttodebugger = TRUE; \/\/ If TRUE, a copy of the memory leak report will be sent to the debugger for display.$/;"	v	file:
+request	./vld-1.9h/src/vldheap.h	/^    long                     request;       \/\/ This block's "request" number. Basically a serial number.$/;"	m	struct:crtdbgblockheader_s
+reserve	./src/xml/dom/tinystr.cpp	/^void TiXmlString::reserve (size_type cap)$/;"	f	class:TiXmlString
+reserve	./vld-1.9h/src/map.h	/^    size_t reserve (size_t count)$/;"	f	class:Map
+reserve	./vld-1.9h/src/set.h	/^    size_t reserve (size_t count)$/;"	f	class:Set
+reserve	./vld-1.9h/src/tree.h	/^    UINT32 reserve (UINT32 count)$/;"	f	class:Tree
+restoreimport	./vld-1.9h/src/utility.cpp	/^VOID restoreimport (HMODULE importmodule, HMODULE exportmodule, LPCSTR exportmodulename, LPCSTR importname,$/;"	f
+restoremodule	./vld-1.9h/src/utility.cpp	/^VOID restoremodule (HMODULE importmodule, patchentry_t patchtable [], UINT tablesize)$/;"	f
+right	./vld-1.9h/src/tree.h	/^        struct node_s     *right;  \/\/ The node's right child.$/;"	m	struct:Tree::node_s	typeref:struct:Tree::node_s::node_s
+row	./src/xml/dom/tinyxml.h	/^	int row;	\/\/ 0 based.$/;"	m	struct:TiXmlCursor
+second	./vld-1.9h/src/map.h	/^    Ts second; \/\/ The second value of the pair.$/;"	m	class:Pair
+sentinel	./src/xml/dom/tinyxml.h	/^	TiXmlAttribute sentinel;$/;"	m	class:TiXmlAttributeSet
+serialnumber	./vld-1.9h/src/vldheap.h	/^    SIZE_T                   serialnumber;  \/\/ Each block is assigned a unique serial number, starting from zero.$/;"	m	struct:vldblockheader_s
+serialnumber	./vld-1.9h/src/vldint.h	/^    SIZE_T     serialnumber;$/;"	m	struct:blockinfo_s
+set_size	./src/xml/dom/tinystr.h	/^	void set_size(size_type sz) { rep_->str[ rep_->size = sz ] = '\\0'; }$/;"	f	class:TiXmlString
+setreportencoding	./vld-1.9h/src/utility.cpp	/^VOID setreportencoding (encoding_e encoding)$/;"	f
+setreportfile	./vld-1.9h/src/utility.cpp	/^VOID setreportfile (FILE *file, BOOL copydebugger)$/;"	f
+simpleTextPrint	./src/xml/dom/tinyxml.h	/^	bool simpleTextPrint;$/;"	m	class:TiXmlPrinter
+size	./src/xml/dom/tinystr.h	/^		size_type size, capacity;$/;"	m	struct:TiXmlString::Rep
+size	./src/xml/dom/tinystr.h	/^	size_type size () const { return rep_->size; }$/;"	f	class:TiXmlString
+size	./vld-1.9h/src/vldheap.h	/^    size_t                   size;          \/\/ Size of the data portion of the block.$/;"	m	struct:crtdbgblockheader_s
+size	./vld-1.9h/src/vldheap.h	/^    unsigned int             size;          \/\/ The size of this memory block, not including this header.$/;"	m	struct:vldblockheader_s
+size	./vld-1.9h/src/vldint.h	/^    SIZE_T     size;$/;"	m	struct:blockinfo_s
+size_type	./src/xml/dom/tinystr.h	/^  	typedef size_t size_type;$/;"	t	class:TiXmlString
+stackwalklock	./vld-1.9h/src/vld.cpp	/^CRITICAL_SECTION stackwalklock;  \/\/ Serializes calls to StackWalk64 from the Debug Help Library.$/;"	v
+stamp	./src/xml/dom/tinyxmlparser.cpp	/^	const char*		stamp;$/;"	m	class:TiXmlParsingData	file:
+standalone	./src/xml/dom/tinyxml.h	/^	TIXML_STRING standalone;$/;"	m	class:TiXmlDeclaration
+start	./src/xml/dom/tinystr.h	/^	char* start() const { return rep_->str; }$/;"	f	class:TiXmlString
+str	./src/xml/dom/tinystr.h	/^		char str[1];$/;"	m	struct:TiXmlString::Rep
+str	./src/xml/dom/tinyxml.h	/^		const char*     str;$/;"	m	struct:TiXmlBase::Entity
+strLength	./src/xml/dom/tinyxml.h	/^		unsigned int	strLength;$/;"	m	struct:TiXmlBase::Entity
+strapp	./vld-1.9h/src/utility.cpp	/^VOID strapp (LPWSTR *dest, LPCWSTR source)$/;"	f
+string_To_UTF8	./src/strFunc.cpp	/^std::string string_To_UTF8(const std::string & str) $/;"	f
+strtobool	./vld-1.9h/src/utility.cpp	/^BOOL strtobool (LPCWSTR s) {$/;"	f
+swap	./src/xml/dom/tinystr.h	/^	void swap (TiXmlString& other)$/;"	f	class:TiXmlString
+symbollock	./vld-1.9h/src/vld.cpp	/^CRITICAL_SECTION symbollock;     \/\/ Serializes calls to the Debug Help Library symbold handling APIs.$/;"	v
+tabsize	./src/xml/dom/tinyxml.h	/^	int tabsize;$/;"	m	class:TiXmlDocument
+tabsize	./src/xml/dom/tinyxmlparser.cpp	/^	int				tabsize;$/;"	m	class:TiXmlParsingData	file:
+threadid	./vld-1.9h/src/vldint.h	/^    DWORD  threadid;         \/\/ Thread ID of the thread that owns this TLS structure.$/;"	m	struct:tls_s
+tls_s	./vld-1.9h/src/vldint.h	/^typedef struct tls_s {$/;"	s
+tls_t	./vld-1.9h/src/vldint.h	/^} tls_t;$/;"	t	typeref:struct:tls_s
+type	./src/xml/dom/tinyxml.h	/^	NodeType		type;$/;"	m	class:TiXmlNode
+unicode	./vld-1.9h/src/utility.h	/^    unicode$/;"	e	enum:encoding_e
+unicodestring_s	./vld-1.9h/src/ntapi.h	/^typedef struct unicodestring_s {$/;"	s
+unicodestring_t	./vld-1.9h/src/ntapi.h	/^} unicodestring_t;$/;"	t	typeref:struct:unicodestring_s
+unmapblock	./vld-1.9h/src/vld.cpp	/^VOID VisualLeakDetector::unmapblock (HANDLE heap, LPCVOID mem)$/;"	f	class:VisualLeakDetector
+unmapheap	./vld-1.9h/src/vld.cpp	/^VOID VisualLeakDetector::unmapheap (HANDLE heap)$/;"	f	class:VisualLeakDetector
+use	./vld-1.9h/src/vldheap.h	/^    int                      use;           \/\/ This block's "use type": see below.$/;"	m	struct:crtdbgblockheader_s
+use	./vld-1.9h/src/vldheap.h	/^    int                      use;           \/\/ This block's "use type":$/;"	m	struct:crtdbgblockheader_s
+useMicrosoftBOM	./src/xml/dom/tinyxml.h	/^	bool useMicrosoftBOM;		\/\/ the UTF-8 BOM were found when read. Note this, and try to write.$/;"	m	class:TiXmlDocument
+userData	./src/xml/dom/tinyxml.h	/^	void*			userData;$/;"	m	class:TiXmlBase
+utf8ByteTable	./src/xml/dom/tinyxml.h	/^	static const int utf8ByteTable[256];$/;"	m	class:TiXmlBase
+utf8ByteTable	./src/xml/dom/tinyxmlparser.cpp	/^const int TiXmlBase::utf8ByteTable[256] = $/;"	m	class:TiXmlBase	file:
+value	./src/xml/dom/tinyxml.h	/^	TIXML_STRING	value;$/;"	m	class:TiXmlNode
+value	./src/xml/dom/tinyxml.h	/^	TIXML_STRING value;$/;"	m	class:TiXmlAttribute
+version	./src/xml/dom/tinyxml.h	/^	TIXML_STRING version;$/;"	m	class:TiXmlDeclaration
+vld	./vld-1.9h/src/vld.cpp	/^__declspec(dllexport) VisualLeakDetector vld;$/;"	v
+vldblockheader_s	./vld-1.9h/src/vldheap.h	/^typedef struct vldblockheader_s$/;"	s
+vldblockheader_t	./vld-1.9h/src/vldheap.h	/^} vldblockheader_t;$/;"	t	typeref:struct:vldblockheader_s
+vldblocklist	./vld-1.9h/src/vldheap.cpp	/^vldblockheader_t *vldblocklist = NULL; \/\/ List of internally allocated blocks on VLD's private heap.$/;"	v
+vlddelete	./vld-1.9h/src/vldheap.cpp	/^void vlddelete (void *block)$/;"	f
+vldheap	./vld-1.9h/src/vldheap.cpp	/^HANDLE            vldheap;             \/\/ VLD's private heap.$/;"	v
+vldheaplock	./vld-1.9h/src/vldheap.cpp	/^CRITICAL_SECTION  vldheaplock;         \/\/ Serializes access to VLD's private heap.$/;"	v
+vldnew	./vld-1.9h/src/vldheap.cpp	/^void* vldnew (unsigned int size, const char *file, int line)$/;"	f
+~CallStack	./vld-1.9h/src/callstack.cpp	/^CallStack::~CallStack ()$/;"	f	class:CallStack
+~TiXmlAttributeSet	./src/xml/dom/tinyxml.cpp	/^TiXmlAttributeSet::~TiXmlAttributeSet()$/;"	f	class:TiXmlAttributeSet
+~TiXmlBase	./src/xml/dom/tinyxml.h	/^	virtual ~TiXmlBase()			{}$/;"	f	class:TiXmlBase
+~TiXmlComment	./src/xml/dom/tinyxml.h	/^	virtual ~TiXmlComment()	{}$/;"	f	class:TiXmlComment
+~TiXmlDeclaration	./src/xml/dom/tinyxml.h	/^	virtual ~TiXmlDeclaration()	{}$/;"	f	class:TiXmlDeclaration
+~TiXmlDocument	./src/xml/dom/tinyxml.h	/^	virtual ~TiXmlDocument() {}$/;"	f	class:TiXmlDocument
+~TiXmlElement	./src/xml/dom/tinyxml.cpp	/^TiXmlElement::~TiXmlElement()$/;"	f	class:TiXmlElement
+~TiXmlNode	./src/xml/dom/tinyxml.cpp	/^TiXmlNode::~TiXmlNode()$/;"	f	class:TiXmlNode
+~TiXmlString	./src/xml/dom/tinystr.h	/^	~TiXmlString ()$/;"	f	class:TiXmlString
+~TiXmlText	./src/xml/dom/tinyxml.h	/^	virtual ~TiXmlText() {}$/;"	f	class:TiXmlText
+~TiXmlUnknown	./src/xml/dom/tinyxml.h	/^	virtual ~TiXmlUnknown() {}$/;"	f	class:TiXmlUnknown
+~TiXmlVisitor	./src/xml/dom/tinyxml.h	/^	virtual ~TiXmlVisitor() {}$/;"	f	class:TiXmlVisitor
+~Tree	./vld-1.9h/src/tree.h	/^    ~Tree ()$/;"	f	class:Tree
+~VisualLeakDetector	./vld-1.9h/src/vld.cpp	/^VisualLeakDetector::~VisualLeakDetector ()$/;"	f	class:VisualLeakDetector
