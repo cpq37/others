@@ -23,6 +23,9 @@
 
 #else
 #define TEST_XML_PATH "./language res/MIBG__GP_2217_20151125/Russisch.xml"
+#define TEST_XML_PATH0 "./language res/MIBG__GP_2217_20151125/Chinese_CN.xml"
+#define TEST_XML_PATH1 "./language res/MIBG__GP_2217_20151125/Englisch_28USA29.xml"
+#define TEXT_OUT	  "./language res/TrResourceTable.h"
 #endif
 
 typedef struct TextNode

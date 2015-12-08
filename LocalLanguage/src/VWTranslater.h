@@ -38,8 +38,8 @@ public:
 	VWTextTranslator() {}
 	~VWTextTranslator();
 
-	virtual bool readFileToDatas(const char* infile) override;
-	virtual bool writeDatasToFile(const char* outfile) override;
+	virtual bool readFileToDatas(const char* infile) /*override*/;
+	virtual bool writeDatasToFile(const char* outfile)/* override*/;
 
 protected:
 	TEXTNODE* findPrevNode(TEXTNODE& nextNode) const;
