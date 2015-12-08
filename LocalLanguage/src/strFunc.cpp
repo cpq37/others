@@ -102,13 +102,13 @@ std::string UTF8_To_string_Ex(const std::string & str)
 	return retStr; 
 } 
 
-#else
+#endif
 
 std::string insteadSpecialChar(const std::string &str)
 {
-    std::string retStr = "";
-    int nLen = str.length();
-    int i = 0;
+	std::string retStr = "";
+	int nLen = (int)str.length();
+	int i = 0;
 	while( i < nLen )
 	{
 
@@ -124,7 +124,5 @@ std::string insteadSpecialChar(const std::string &str)
 		i++;
 	}
 
-    return retStr;
+	return retStr;
 }
-
-#endif

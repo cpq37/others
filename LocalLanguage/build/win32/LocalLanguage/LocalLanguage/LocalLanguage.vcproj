@@ -184,6 +184,10 @@
 				RelativePath="..\..\..\..\src\strFunc.cpp"
 				>
 			</File>
+			<File
+				RelativePath="..\..\..\..\src\VWTranslater.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
@@ -192,6 +196,14 @@
 			>
 			<File
 				RelativePath="..\..\..\..\src\strFunc.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\..\..\src\testFunc.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\..\..\src\VWTranslater.h"
 				>
 			</File>
 		</Filter>
