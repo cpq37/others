@@ -6,7 +6,15 @@
 #include "testFunc.h"
 #include "getopt.h"
 
-#define VERSION "v0.1"
+
+#ifdef WIN32
+#ifdef _DEBUG 
+#include "vld.h" 
+#endif
+#endif
+
+
+#define VERSION "v1.0"
 #define EXE_NAME "VWTranslator"
 #define DEFAULT_OUT_FILE "TrResourceTable.h"
 
@@ -23,7 +31,7 @@ void holler (char *str, char *p1=NULL, char *p2=NULL, char *p3=NULL, char *p4=NU
 
 inline void display_version(void)
 {
-	printf("[%s %s]\n", VERSION, EXE_NAME);
+	printf("[%s %s by ChenPeiquan]\n", VERSION, EXE_NAME);
 }
 
 void display_usage(void)
@@ -110,9 +118,14 @@ int main(int argc, char **argv)
 	}
 
 
-	m_VWTraslator.writeDatasToFile(strOutfile.c_str());
+	if( m_VWTraslator.writeDatasToFile(strOutfile.c_str()) )
+    {
+        puts("\033[31mGenerate Header file sucess!\033[0m \n");
+    }
 
+#ifdef WIN32 && _DEBUG
 	getchar();
+#endif
 
 	return (0);
 }

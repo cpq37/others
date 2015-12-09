@@ -1,4 +1,4 @@
-TARGET =
+TARGET = VWTranslator
 TARGET_DIR = 
 
 ifeq ($(ARCH), arm)
@@ -43,7 +43,7 @@ OBJ_FILES = $(patsubst %.o, $(OBJ_OUTPUT_PATH)/%.o, $(C_OBJ_FILES) $(CPP_OBJ_FIL
 
 
 test:$(CPP_OBJ_FILES) 
-	$(CPP) -o test $(CPP_OBJ_FILES)  
+	$(CPP) -o $(TARGET) $(CPP_OBJ_FILES)  
 	
 
 print:
@@ -51,7 +51,7 @@ print:
 	@echo $(CPP_OBJ_FILES) 
 
 clean:
-	rm $(CPP_OBJ_FILES) test
+	rm $(CPP_OBJ_FILES) $(TARGET)
 
 
 

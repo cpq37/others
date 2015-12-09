@@ -89,58 +89,62 @@ bool VWTextTranslator::readFileToDatas(const char* infile)
 
 bool VWTextTranslator::writeDatasToFile(const char* outfile)
 {
-	std::ofstream outFile;
-	try
-	{
-		outFile.open(outfile,std::ios::out|std::ios::binary);
+    std::ofstream outFile;
+    try
+    {
+        if( allLanTexts.size() )
+        {
+            outFile.open(outfile,std::ios::out|std::ios::binary);
 
-		if( !outFile )
-		{
-			printf("open file:\"%s\" fail!\n", outfile);
-			return false;
-		}
-		if( allLanTexts.size() )
-		{
-			std::vector<TEXTNODE*>::iterator it = (*allLanTexts.begin())->textList.begin();
-			outFile << ("SK_TR_TABLE_START") << std::endl;
-			while( it != (*allLanTexts.begin())->textList.end() )
-			{
-				if( *it )
-				{
-					outFile << "SK_TR_ITEM(" << insteadSpecialChar((*it)->LangID) << ", \"" << (*it)->Text << "\"";
-					TEXTNODE* pNextNode = (*it)->next;
-					while( pNextNode )
-					{
-						outFile << ", \"" << (pNextNode->Text) << "\"";
-						pNextNode = pNextNode->next;
-					}
-					outFile<< ")" << std::endl;
-					it++;
-				}
+            if( !outFile )
+            {
+                printf("open file:\"%s\" fail!\n", outfile);
+                return false;
+            }
+            std::vector<TEXTNODE*>::iterator it = (*allLanTexts.begin())->textList.begin();
+            outFile << ("SK_TR_TABLE_START") << std::endl;
+            while( it != (*allLanTexts.begin())->textList.end() )
+            {
+                if( *it )
+                {
+                    outFile << "SK_TR_ITEM(" << insteadSpecialChar((*it)->LangID) << ", \"" << (*it)->Text << "\"";
+                    TEXTNODE* pNextNode = (*it)->next;
+                    while( pNextNode )
+                    {
+                        outFile << ", \"" << (pNextNode->Text) << "\"";
+                        pNextNode = pNextNode->next;
+                    }
+                    outFile<< ")" << std::endl;
+                    it++;
+                }
 
-			}
-			outFile << "SK_TR_TABLE_END" << std::endl;
-		}
+            }
+            outFile << "SK_TR_TABLE_END" << std::endl;
+            outFile.close();
+        }
+        else
+        {
+            return false;
+        }
 
-		outFile.close();
-	}
-	catch(std::exception& e)
-	{
-		std::cout << "fail: " << e.what() << std::endl;  
-		return false;
-	}
+    }
+    catch(std::exception& e)
+    {
+        std::cout << "fail: " << e.what() << std::endl;  
+        return false;
+    }
 
-	return true;
+    return true;
 }
 
 VWTextTranslator::TEXTNODE* VWTextTranslator::findPrevNode(TEXTNODE& nextNode) const
 {
 
-	if(allLanTexts.size() > 0)
-	{
-		LANTEXTS* prevLang =  allLanTexts.back();
-		TEXTNODE* tempNode = prevLang->textList.at(nextNode.ID);
-		if( 0 == tempNode->LangID.compare(nextNode.LangID ) )
+    if(allLanTexts.size() > 0)
+    {
+        LANTEXTS* prevLang =  allLanTexts.back();
+        TEXTNODE* tempNode = prevLang->textList.at(nextNode.ID);
+        if( 0 == tempNode->LangID.compare(nextNode.LangID ) )
 		{
 			tempNode->next = &nextNode;
 			return tempNode;
