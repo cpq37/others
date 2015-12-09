@@ -1,7 +1,7 @@
 #ifndef  __VWTranslator_H
 #define  __VWTranslator_H
 
-#include <string>
+#include <string.h>
 #include <vector>
 
 class VWTranslator

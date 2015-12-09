@@ -9,9 +9,9 @@
 			Name="Debug|Win32"
 			>
 			<DebugSettings
-				Command="$(TargetPath)"
+				Command="$(TargetPath) "
 				WorkingDirectory=""
-				CommandArguments=""
+				CommandArguments=" -h -i &quot;D:\Projects\others\LocalLanguage\language res\MIBG__GP_2217_20151125\Chinese_CN.xml&quot;  &quot;D:\Projects\others\LocalLanguage\language res\MIBG__GP_2217_20151125\Englisch_28USA29.xml&quot; "
 				Attach="false"
 				DebuggerType="3"
 				Remote="1"
@@ -22,7 +22,7 @@
 				SQLDebugging=""
 				Environment=""
 				EnvironmentMerge="true"
-				DebuggerFlavor=""
+				DebuggerFlavor="0"
 				MPIRunCommand=""
 				MPIRunArguments=""
 				MPIRunWorkingDirectory=""

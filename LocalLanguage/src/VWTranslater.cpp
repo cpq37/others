@@ -37,11 +37,12 @@ bool VWTextTranslator::readFileToDatas(const char* infile)
 {
 	TiXmlDocument mXMLFile;
 	TiXmlElement* root;   //表示XML文件的根节点
-	LANTEXTS* languageTexts = new LANTEXTS;
+	
 
 	FILE* fp = fopen(infile,"r");
 	if(fp) //存在XML文件
 	{
+		LANTEXTS* languageTexts = new LANTEXTS;
 		mXMLFile = TiXmlDocument(infile);
 		if(mXMLFile.LoadFile(TIXML_ENCODING_LEGACY)) //文档加载成功
 		{
@@ -73,6 +74,7 @@ bool VWTextTranslator::readFileToDatas(const char* infile)
 
 		fclose(fp);
 		fp = NULL;
+		allLanTexts.push_back(languageTexts);
 	}
 	else
 	{
@@ -80,7 +82,7 @@ bool VWTextTranslator::readFileToDatas(const char* infile)
 		return false;
 	}
 
-	allLanTexts.push_back(languageTexts);
+	
 	return true;
 }
 
@@ -97,22 +99,29 @@ bool VWTextTranslator::writeDatasToFile(const char* outfile)
 			printf("open file:\"%s\" fail!\n", outfile);
 			return false;
 		}
-		std::vector<TEXTNODE*>::iterator it = (*allLanTexts.begin())->textList.begin();
-		outFile << ("SK_TR_TABLE_START") << std::endl;
-		while( it != (*allLanTexts.begin())->textList.end() )
+		if( allLanTexts.size() )
 		{
-
-			outFile << "SK_TR_ITEM(" << insteadSpecialChar((*it)->LangID) << ", \"" << (*it)->Text << "\"";
-			TEXTNODE* pNextNode = (*it)->next;
-			while( pNextNode )
+			std::vector<TEXTNODE*>::iterator it = (*allLanTexts.begin())->textList.begin();
+			outFile << ("SK_TR_TABLE_START") << std::endl;
+			while( it != (*allLanTexts.begin())->textList.end() )
 			{
-				outFile << ", \"" << (pNextNode->Text) << "\"";
-				pNextNode = pNextNode->next;
+				if( *it )
+				{
+					outFile << "SK_TR_ITEM(" << insteadSpecialChar((*it)->LangID) << ", \"" << (*it)->Text << "\"";
+					TEXTNODE* pNextNode = (*it)->next;
+					while( pNextNode )
+					{
+						outFile << ", \"" << (pNextNode->Text) << "\"";
+						pNextNode = pNextNode->next;
+					}
+					outFile<< ")" << std::endl;
+					it++;
+				}
+
 			}
-			outFile<< ")" << std::endl;
-			it++;
+			outFile << "SK_TR_TABLE_END" << std::endl;
 		}
-		outFile << "SK_TR_TABLE_END" << std::endl;
+
 		outFile.close();
 	}
 	catch(std::exception& e)
@@ -141,11 +150,15 @@ VWTextTranslator::TEXTNODE* VWTextTranslator::findPrevNode(TEXTNODE& nextNode) c
 			std::vector<TEXTNODE*>::iterator it = prevLang->textList.begin();
 			while( it != prevLang->textList.end() )
 			{
-				if( 0 == (*it)->LangID.compare(nextNode.LangID) )
+				if( *it )
 				{
-					(*it)->next = &nextNode;
-					return *it;
+					if( 0 == (*it)->LangID.compare(nextNode.LangID) )
+					{
+						(*it)->next = &nextNode;
+						return *it;
+					}
 				}
+
 				it++;
 			}
 		}

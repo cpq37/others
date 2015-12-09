@@ -1,9 +1,9 @@
 #ifndef  TEST_FUNC_H
 #define  TEST_FUNC_H
 
-#include <string>
-#include <vector>
 #include <stdlib.h>
+#include <string.h>
+#include <vector>
 #include <fstream>
 #include <iostream>
 #include <exception>
@@ -19,7 +19,7 @@
 #define TEST_XML_PATH "D:\\Projects\\others\\LocalLanguage\\language res\\MIBG__GP_2217_20151125\\Chinese_CN.xml"
 #define TEST_XML_PATH0 "D:\\Projects\\others\\LocalLanguage\\language res\\MIBG__GP_2217_20151125\\Chinese_CN.xml"
 #define TEST_XML_PATH1 "D:\\Projects\\others\\LocalLanguage\\language res\\MIBG__GP_2217_20151125\\Englisch_28USA29.xml"
-#define TEXT_OUT	  "D:\\Projects\\others\\LocalLanguage\\language res\\TrResourceTable.h"
+#define TEXT_OUT	  "D:\\Projects\\others\\LocalLanguage\\language resx\\TrResourceTable.h"
 
 #else
 #define TEST_XML_PATH "./language res/MIBG__GP_2217_20151125/Russisch.xml"
@@ -108,6 +108,17 @@ int test(void)
 
 	testFile.close();
 	getchar();
+	return 0;
+}
+
+int testVWTranslator(void)
+{
+	VWTextTranslator testTraslator;
+	testTraslator.readFileToDatas(TEST_XML_PATH0);
+	testTraslator.readFileToDatas(TEST_XML_PATH1);
+	testTraslator.writeDatasToFile(TEXT_OUT);
+	getchar();
+
 	return 0;
 }
 
