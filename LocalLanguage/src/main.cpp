@@ -120,10 +120,14 @@ int main(int argc, char **argv)
 
 	if( m_VWTraslator.writeDatasToFile(strOutfile.c_str()) )
     {
+#ifdef WIN32
+		puts("Generate Header file sucess!");
+#else
         puts("\033[31mGenerate Header file sucess!\033[0m \n");
+#endif
     }
 
-#ifdef WIN32 && _DEBUG
+#if WIN32 && _DEBUG
 	getchar();
 #endif
 

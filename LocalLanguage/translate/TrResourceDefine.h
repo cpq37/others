@@ -1,16 +1,16 @@
 /*******************************************************************************
 
-* Copyright (c) 2014，德赛西威汽车电子有限公司
+* Copyright (c) 2014，德赛西威汽车电子有限公�?
 
 * All rights reserved
 
-* 文件名: StringResourceMgr.h
+* 文件�? StringResourceMgr.h
 
-* 编写者: 潘荣涛 Never_More
+* 编写�? 潘荣�?Never_More
 
 * 编写日期: 
 
-* 简要描述: 字符串资源管理
+* 简要描�? 字符串资源管�?
 
 * 修改记录: 
 
@@ -29,13 +29,13 @@ using namespace std;
 
 #define COLUMN_COUNT	2
 
-//定义Id
+//define Id
 #define SK_TR_TABLE_START typedef enum {
 #define SK_TR_ITEM(nId, sCol0, sCol1) nId,
 #define SK_TR_TABLE_END ID_MAX } SK_TR_ID;
 #include "TrResourceTable.h"
 
-//取消定义
+//cancel define
 #undef SK_TR_TABLE_START
 #undef SK_TR_ITEM
 #undef SK_TR_TABLE_END
