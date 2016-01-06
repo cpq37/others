@@ -1,0 +1,126 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^export AR                               = arm-linux-gnueabihf-ar$/;"	m
+AR	Makefile	/^export AR                       = ar$/;"	m
+ARFLAGS	Makefile	/^export ARFLAGS                  =$/;"	m
+BOOL	src/CommonType.h	/^typedef unsigned char      BOOL;$/;"	t
+BUFFER	include/IPC_Message.h	13;"	d
+BUFFER	src/IPC_Message.h	13;"	d
+CC	Makefile	/^export CC                               = arm-linux-gnueabihf-gcc -march=armv7-a -marm -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a15 \\$/;"	m
+CC	Makefile	/^export CC                       = gcc$/;"	m
+CFLAGS	Makefile	/^export CFLAGS                   = -I$(SVP_SYSTEM_SDK_PATH)\/sysroots\/cortexa15t2hf-vfp-neon-oe-linux-gnueabi\/include\/c++\/4.7.3 \\$/;"	m
+CPP	Makefile	/^export CPP                              = arm-linux-gnueabihf-g++ -march=armv7-a -marm -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a15 \\$/;"	m
+CPP	Makefile	/^export CPP                      = g++$/;"	m
+CPPFLAGS	Makefile	/^export CPPFLAGS                 = -I$(SVP_SYSTEM_SDK_PATH)\/sysroots\/cortexa15t2hf-vfp-neon-oe-linux-gnueabi\/include\/c++\/4.7.3 \\$/;"	m
+CreateMsgChannel	src/SVP_IPC.cpp	/^MsgQueueId SVPMsgIPC::CreateMsgChannel(int nChannel)$/;"	f	class:SVPMsgIPC
+DEBUG_ERR	src/Debug_Log.h	14;"	d
+DEBUG_ERR	src/Debug_Log.h	32;"	d
+DEBUG_INFO	src/Debug_Log.h	20;"	d
+DEBUG_INFO	src/Debug_Log.h	33;"	d
+DEBUG_LEVEL	src/Debug_Log.h	10;"	d
+DEBUG_LINE	src/Debug_Log.h	26;"	d
+DEBUG_LINE	src/Debug_Log.h	31;"	d
+Destroy	src/SVP_IPC.cpp	/^bool SVPMsgIPC::Destroy()$/;"	f	class:SVPMsgIPC
+FALSE	src/CommonType.h	17;"	d
+GetMessage	src/SVP_IPC.cpp	/^bool SVPMsgIPC::GetMessage(const char* buffer, long& wParam, long& lParam)$/;"	f	class:SVPMsgIPC
+HEADER_COMMONTYPE_H	src/CommonType.h	3;"	d
+HEADER_IPC_MESSAGE_H	include/IPC_Message.h	2;"	d
+HEADER_IPC_MESSAGE_H	src/IPC_Message.h	2;"	d
+HEAD_SVPMsgIPC	include/SVP_IPC.h	3;"	d
+HEAD_SVPMsgIPC	src/SVP_IPC.h	3;"	d
+INCDIR	Makefile	/^INCDIR = .\/include$/;"	m
+INCLUDE	Makefile	/^INCLUDE      = $(foreach dir,$(INCDIR), -I$(dir))$/;"	m
+IPC_MSG_Create	src/IPC_Message.c	/^int IPC_MSG_Create(int index)$/;"	f
+IPC_MSG_PeekMessage	src/IPC_Message.c	/^int IPC_MSG_PeekMessage(int qId, int msgId, MESSAGE* const pMsg)$/;"	f
+IPC_MSG_PostMessage	src/IPC_Message.c	/^int IPC_MSG_PostMessage(int qId, int msgId, unsigned int wParam, unsigned int lParam)$/;"	f
+IPC_MSG_SendMessage	src/IPC_Message.c	/^int IPC_MSG_SendMessage(int qId, int msgId, unsigned int wParam, unsigned int lParam)$/;"	f
+IPC_MSG_SendMessageBuffer	src/IPC_Message.c	/^int IPC_MSG_SendMessageBuffer(int qId, int msgId, unsigned bufferSize, char* buffer)$/;"	f
+IPC_MSG_WaitMessage	src/IPC_Message.c	/^int IPC_MSG_WaitMessage(int qId, MESSAGE* const pMsg, int msgId)$/;"	f
+IPC_MSG_WaitMessageBuffer	src/IPC_Message.c	/^int IPC_MSG_WaitMessageBuffer(int qId, void* pMsg, int msgSize)$/;"	f
+LD	Makefile	/^export LD                               = arm-linux-gnueabihf-ld$/;"	m
+LD	Makefile	/^export LD                       = ld$/;"	m
+LDFLAGS	Makefile	/^export LDFLAGS                  = -L$(SVP_SYSTEM_SDK_PATH)\/sysroots\/cortexa15t2hf-vfp-neon-oe-linux-gnueabi\/usr\/lib \\$/;"	m
+LDFLAGS	Makefile	/^export LDFLAGS                  = -Wl,-O3$/;"	m
+LDFLAGS_SHARE	Makefile	/^export LDFLAGS_SHARE    = -shared -Wl,-O3$/;"	m
+LDFLAGS_SHARE	Makefile	/^export LDFLAGS_SHARE    = -shared \\$/;"	m
+LD_LIB_PATH	Makefile	/^export LD_LIB_PATH              = -L.\/ -L$(SVP_LIB_PATH)$/;"	m
+LIBDIR	Makefile	/^LIBDIR = .\/lib\/$(ARCH)$/;"	m
+LIBDIR	Makefile	/^LIBDIR = .\/lib\/x86$/;"	m
+MESSAGE	include/IPC_Message.h	/^} MESSAGE;$/;"	t	typeref:struct:Message
+MESSAGE	src/IPC_Message.h	/^} MESSAGE;$/;"	t	typeref:struct:Message
+MSGBUF	include/IPC_Message.h	/^} MSGBUF;$/;"	t	typeref:struct:msgtype
+MSGBUF	src/IPC_Message.h	/^} MSGBUF;$/;"	t	typeref:struct:msgtype
+MSG_CHANNELS	include/IPC_Message.h	/^} MSG_CHANNELS;$/;"	t	typeref:enum:__anon1
+MSG_CHANNELS	src/IPC_Message.h	/^} MSG_CHANNELS;$/;"	t	typeref:enum:__anon2
+MSG_DEFAULT_CHANNEL	include/IPC_Message.h	/^    MSG_DEFAULT_CHANNEL = 0,$/;"	e	enum:__anon1
+MSG_DEFAULT_CHANNEL	src/IPC_Message.h	/^    MSG_DEFAULT_CHANNEL = 0,$/;"	e	enum:__anon2
+MSG_FILE	include/IPC_Message.h	12;"	d
+MSG_FILE	src/IPC_Message.h	12;"	d
+MSG_MAX_CHANNEL	include/IPC_Message.h	/^    MSG_MAX_CHANNEL = 255$/;"	e	enum:__anon1
+MSG_MAX_CHANNEL	src/IPC_Message.h	/^    MSG_MAX_CHANNEL = 255$/;"	e	enum:__anon2
+Message	include/IPC_Message.h	/^typedef struct Message $/;"	s
+Message	src/IPC_Message.h	/^typedef struct Message $/;"	s
+Message	testService.c	/^struct Message$/;"	s	file:
+MsgQueueId	include/SVP_IPC.h	/^typedef int MsgQueueId;$/;"	t
+MsgQueueId	src/SVP_IPC.h	/^typedef int MsgQueueId;$/;"	t
+MsgThreadProc	src/SVP_IPC.cpp	/^void* SVPMsgIPC::MsgThreadProc(void* arg)$/;"	f	class:SVPMsgIPC
+NULL	src/CommonType.h	26;"	d
+OBJ_FILE	Makefile	/^OBJ_FILE = $(patsubst %.c, %.o, $(OBJ_TEMP_FILE))$/;"	m
+OBJ_FILES	Makefile	/^OBJ_FILES = *.o$/;"	m
+OBJ_TEMP_FILE	Makefile	/^OBJ_TEMP_FILE = $(patsubst %.cpp, %.o, $(SRC_FILES))$/;"	m
+OnMessageHandler	src/SVP_IPC.cpp	/^void SVPMsgIPC::OnMessageHandler(int msgId, const char* buffer)$/;"	f	class:SVPMsgIPC
+S16	src/CommonType.h	/^typedef signed short       S16;$/;"	t
+S32	src/CommonType.h	/^typedef signed int         S32;$/;"	t
+S64	src/CommonType.h	/^typedef signed long long   S64;$/;"	t
+S8	src/CommonType.h	/^typedef signed char        S8;$/;"	t
+SRCDIR	Makefile	/^SRCDIR = .\/src$/;"	m
+SRC_FILES	Makefile	/^SRC_FILES = $(foreach dir, $(SRCDIR), $(wildcard $(dir)\/*.c)) $/;"	m
+STRIP	Makefile	/^export STRIP                    = arm-linux-gnueabihf-strip$/;"	m
+STRIP	Makefile	/^export STRIP                    = strip$/;"	m
+SVPMsgIPC	include/SVP_IPC.h	/^class SVPMsgIPC$/;"	c
+SVPMsgIPC	src/SVP_IPC.cpp	/^SVPMsgIPC::SVPMsgIPC(void)$/;"	f	class:SVPMsgIPC
+SVPMsgIPC	src/SVP_IPC.h	/^class SVPMsgIPC$/;"	c
+SendMessage	src/SVP_IPC.cpp	/^bool SVPMsgIPC::SendMessage(int msgId, char* buffer, long bufferSize)$/;"	f	class:SVPMsgIPC
+SendMessage	src/SVP_IPC.cpp	/^bool SVPMsgIPC::SendMessage(int msgId, long wParam, long lParam)$/;"	f	class:SVPMsgIPC
+TARGET	Makefile	/^TARGET = libsvipc$/;"	m
+TRUE	src/CommonType.h	18;"	d
+U16	src/CommonType.h	/^typedef unsigned short     U16;$/;"	t
+U32	src/CommonType.h	/^typedef unsigned int       U32;$/;"	t
+U64	src/CommonType.h	/^typedef unsigned long long U64;$/;"	t
+U8	src/CommonType.h	/^typedef unsigned char      U8;$/;"	t
+USE_DEBUG	src/Debug_Log.h	12;"	d
+__USE_DEBUG	src/Debug_Log.h	2;"	d
+buffer	include/IPC_Message.h	/^    char buffer[BUFFER];$/;"	m	struct:msgtype
+buffer	src/IPC_Message.h	/^    char buffer[BUFFER];$/;"	m	struct:msgtype
+buffer	testService.c	/^    char buffer[256];$/;"	m	struct:Message	file:
+g_mapMsgId	include/SVP_IPC.h	/^    static std::map<int,MsgQueueId> g_mapMsgId; $/;"	m	class:SVPMsgIPC
+g_mapMsgId	src/SVP_IPC.cpp	/^std::map<int, MsgQueueId> SVPMsgIPC::g_mapMsgId;$/;"	m	class:SVPMsgIPC	file:
+g_mapMsgId	src/SVP_IPC.h	/^    static std::map<int,MsgQueueId> g_mapMsgId; $/;"	m	class:SVPMsgIPC
+lParam	include/IPC_Message.h	/^    unsigned lParam;$/;"	m	struct:Message
+lParam	src/IPC_Message.h	/^    unsigned lParam;$/;"	m	struct:Message
+mQueueId	include/SVP_IPC.h	/^    static MsgQueueId mQueueId;$/;"	m	class:SVPMsgIPC
+mQueueId	src/SVP_IPC.cpp	/^MsgQueueId SVPMsgIPC::mQueueId = 0;$/;"	m	class:SVPMsgIPC	file:
+mQueueId	src/SVP_IPC.h	/^    static MsgQueueId mQueueId;$/;"	m	class:SVPMsgIPC
+mThreadId	include/SVP_IPC.h	/^    pthread_t mThreadId;$/;"	m	class:SVPMsgIPC
+mThreadId	src/SVP_IPC.h	/^    pthread_t mThreadId;$/;"	m	class:SVPMsgIPC
+main	test.cpp	/^int main(void)$/;"	f
+main	testService.c	/^int main(void)$/;"	f
+msg	include/SVP_IPC.h	/^    static MSGBUF msg;$/;"	m	class:SVPMsgIPC
+msg	src/SVP_IPC.cpp	/^MSGBUF SVPMsgIPC::msg = {0};$/;"	m	class:SVPMsgIPC	file:
+msg	src/SVP_IPC.h	/^    static MSGBUF msg;$/;"	m	class:SVPMsgIPC
+msgID	include/IPC_Message.h	/^    unsigned int msgID;$/;"	m	struct:Message
+msgID	src/IPC_Message.h	/^    unsigned int msgID;$/;"	m	struct:Message
+msgtype	include/IPC_Message.h	/^typedef struct msgtype $/;"	s
+msgtype	src/IPC_Message.h	/^typedef struct msgtype $/;"	s
+mtype	include/IPC_Message.h	/^    unsigned int mtype;$/;"	m	struct:msgtype
+mtype	src/IPC_Message.h	/^    unsigned int mtype;$/;"	m	struct:msgtype
+mtype	testService.c	/^    long mtype;$/;"	m	struct:Message	file:
+myCount	testService.c	/^static int myCount = 2;$/;"	v	file:
+null	src/CommonType.h	22;"	d
+wParam	include/IPC_Message.h	/^    unsigned int wParam;$/;"	m	struct:Message
+wParam	src/IPC_Message.h	/^    unsigned int wParam;$/;"	m	struct:Message
+~SVPMsgIPC	src/SVP_IPC.cpp	/^SVPMsgIPC::~SVPMsgIPC(void)$/;"	f	class:SVPMsgIPC
