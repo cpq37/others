@@ -43,6 +43,7 @@ public:
 
 protected:
 	TEXTNODE* findPrevNode(TEXTNODE& nextNode) const;
+	TEXTNODE* findTheSameNode(std::vector<TEXTNODE*> &textlist, TEXTNODE& nextNode) const;
 
 private:
 	std::vector<LANTEXTS*> allLanTexts;

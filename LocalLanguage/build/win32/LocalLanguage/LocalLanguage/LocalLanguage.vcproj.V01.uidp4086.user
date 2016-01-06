@@ -11,7 +11,7 @@
 			<DebugSettings
 				Command="$(TargetPath) "
 				WorkingDirectory=""
-				CommandArguments=" -h -i &quot;D:\Projects\others\LocalLanguage\language res\MIBG__GP_2217_20151125\Chinese_CN.xml&quot;  &quot;D:\Projects\others\LocalLanguage\language res\MIBG__GP_2217_20151125\Englisch_28USA29.xml&quot; "
+				CommandArguments=" -i &quot;D:\Projects\others\LocalLanguage\language res\MIBG__GP_2217_20151125\Chinese_CN.xml&quot;  &quot;D:\Projects\others\LocalLanguage\language res\MIBG__GP_2217_20151125\Englisch_28USA29.xml&quot; "
 				Attach="false"
 				DebuggerType="3"
 				Remote="1"

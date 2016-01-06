@@ -117,11 +117,30 @@ std::string insteadSpecialChar(const std::string &str)
 		{
 			retStr += c;
 		}
+// 		else if( '\"' == c )
+// 		{
+// 			retStr = retStr + '\\' + c;
+// 		}
 		else if( c )
 		{
 			retStr += '_';
 		}
 		i++;
+	}
+
+	return retStr;
+}
+
+std::string string_replace(const std::string&s1, const std::string&s2, const std::string&s3)
+{
+	std::string retStr = s1;
+	std::string::size_type pos=0;
+	std::string::size_type a=s2.size();
+	std::string::size_type b=s3.size();
+	while((pos=retStr.find(s2,pos))!=std::string::npos)
+	{
+		retStr.replace(pos,a,s3);
+		pos+=b;
 	}
 
 	return retStr;

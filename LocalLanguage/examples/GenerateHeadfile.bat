@@ -1,0 +1,1 @@
+LocalLanguage.exe -i ".\MIBG__GP_2217_20151125\Chinese_CN.xml"  ".\MIBG__GP_2217_20151125\Englisch_28USA29.xml" 

@@ -1,5 +1,5 @@
 #include  <stdio.h>
-
+#include <curl/curl.h>
 
 
 #include "VWTranslater.h"

@@ -19,7 +19,7 @@
 			Name="Debug|Win32"
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
-			ConfigurationType="2"
+			ConfigurationType="1"
 			CharacterSet="1"
 			>
 			<Tool
@@ -62,7 +62,7 @@
 				Name="VCLinkerTool"
 				LinkIncremental="2"
 				GenerateDebugInformation="true"
-				SubSystem="2"
+				SubSystem="1"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -175,7 +175,15 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath="..\..\..\..\translate\TrResourceDefine.cpp"
+				RelativePath=".\main.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\test1.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\test2.cpp"
 				>
 			</File>
 		</Filter>
@@ -185,11 +193,19 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath="..\..\..\..\translate\TrResourceDefine.h"
+				RelativePath=".\test1.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\translate\TrResourceTable.h"
+				RelativePath=".\test2.h"
+				>
+			</File>
+			<File
+				RelativePath=".\TrResourceDefine.h"
+				>
+			</File>
+			<File
+				RelativePath=".\TrResourceTable.h"
 				>
 			</File>
 		</Filter>

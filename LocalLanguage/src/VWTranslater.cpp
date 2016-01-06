@@ -67,8 +67,14 @@ bool VWTextTranslator::readFileToDatas(const char* infile)
 					tempNode->ID = pPrevNode->ID;
 				}
 				
-
-				languageTexts->textList.push_back(tempNode);
+				if( NULL == findTheSameNode(languageTexts->textList, *tempNode) )
+				{
+					languageTexts->textList.push_back(tempNode);
+				}
+				else
+				{
+					delete tempNode;
+				}
 			}
 		}
 
@@ -107,11 +113,11 @@ bool VWTextTranslator::writeDatasToFile(const char* outfile)
             {
                 if( *it )
                 {
-                    outFile << "SK_TR_ITEM(" << insteadSpecialChar((*it)->LangID) << ", \"" << (*it)->Text << "\"";
+                    outFile << "SK_TR_ITEM(" << insteadSpecialChar((*it)->LangID) << ", \"" << string_replace((*it)->Text, "\"","\\\"") << "\"";
                     TEXTNODE* pNextNode = (*it)->next;
                     while( pNextNode )
                     {
-                        outFile << ", \"" << (pNextNode->Text) << "\"";
+                        outFile << ", \"" << string_replace(pNextNode->Text, "\"", "\\\"") << "\"";
                         pNextNode = pNextNode->next;
                     }
                     outFile<< ")" << std::endl;
@@ -165,6 +171,33 @@ VWTextTranslator::TEXTNODE* VWTextTranslator::findPrevNode(TEXTNODE& nextNode) c
 
 				it++;
 			}
+		}
+	}
+	else
+	{
+		return NULL;
+	}
+
+	return NULL;
+}
+
+VWTextTranslator::TEXTNODE* VWTextTranslator::findTheSameNode(std::vector<TEXTNODE*> &textlist,TEXTNODE& nextNode) const
+{
+	if(textlist.size() > 0)
+	{
+		std::vector<TEXTNODE*>::iterator it = textlist.begin();
+		while( it != textlist.end() )
+		{
+			if( *it )
+			{
+				if( 0 == (*it)->LangID.compare(nextNode.LangID) )
+				{
+					(*it)->next = &nextNode;
+					return *it;
+				}
+			}
+
+			it++;
 		}
 	}
 	else
